@@ -2,6 +2,8 @@
 
 **See inside every server in your lab without opening a single chassis.**
 
+https://github.com/user-attachments/assets/68e3357e-ec96-4cfa-870a-fbcadc86a3af
+
 ![A PowerEdge R750 in 3D Lab: the selected 100GbE NIC shows its firmware, ports, link state and the switch port each port is cabled to](docs/screenshots/hero.webp)
 
 3D Lab reads each server's hardware from its BMC over Redfish and draws it in 3D: CPUs, DIMMs, PCIe/OCP/LOM
