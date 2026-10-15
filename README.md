@@ -56,7 +56,7 @@ Open http://localhost:8080 and click **Refresh stale**. It asks for the token, t
 Without compose:
 
 ```bash
-podman build -t 3d-lab .
+podman build -t 3d-lab .     # or: docker build -f Containerfile -t 3d-lab .
 podman run -d -p 8080:8080 -e VIEWER_API_TOKEN=... \
   -v ./config:/config:ro,Z -v lab3d-data:/data:Z 3d-lab
 ```
