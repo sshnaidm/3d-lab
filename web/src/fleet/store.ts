@@ -226,10 +226,16 @@ function matchesFilters(h: FleetHost, filters: Filters, skip?: FilterKey): boole
   return true
 }
 
-/** Hosts whose own fields contain the text (the service search adds component matches). */
+const compact = (s: string) => s.toLowerCase().replace(/[^0-9a-z]/g, '')
+
+/** Hosts whose own fields contain the text, also with punctuation and spaces ignored, like the service search
+ *  (which adds component matches). */
 function textMatch(h: FleetHost, q: string): boolean {
   const hay = [h.id, h.model, h.lab, h.rack, h.cpu_model, h.description, h.serial, ...h.tags]
-  return hay.some((v) => v && v.toLowerCase().includes(q))
+  const loose = compact(q)
+  return hay.some(
+    (v) => v && (v.toLowerCase().includes(q) || (loose.length >= 2 && compact(v).includes(loose))),
+  )
 }
 
 export function filterHosts(

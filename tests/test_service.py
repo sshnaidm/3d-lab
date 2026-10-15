@@ -465,6 +465,9 @@ class TestApi:
         body = api.get("/api/search", params={"q": "connectx6"}).json()
         assert body["results"][0]["id"] == "r750-a"
         assert any(m.get("slot_key") == "pcie:6" for m in body["results"][0]["matches"])
+        # Punctuation and spaces are ignored: the card is named "ConnectX6".
+        for q in ("ConnectX-6", "connectx 6"):
+            assert api.get("/api/search", params={"q": q}).json()["results"][0]["id"] == "r750-a"
         assert api.get("/api/search", params={"q": "rack-i61"}).json()["results"][0]["id"] == "r750-b"
         assert api.get("/api/search", params={"q": "x"}).status_code == 400
 
