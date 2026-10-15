@@ -4,7 +4,7 @@
 
 https://github.com/user-attachments/assets/68e3357e-ec96-4cfa-870a-fbcadc86a3af
 
-▶ [Full walkthrough on YouTube](https://www.youtube.com/watch?v=fKv7jNFZXJA)
+▶ [Full walkthrough on YouTube](https://www.youtube.com/watch?v=fKv7jNFZXJA) (1.5 min)
 
 3D Lab reads each server's hardware from its BMC over Redfish and draws it in 3D: CPUs, DIMMs, PCIe/OCP/LOM
 NICs, PSUs, fans, drives and empty slots, all colour-coded by health. Click a part for its model, firmware,
