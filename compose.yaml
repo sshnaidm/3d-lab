@@ -3,7 +3,9 @@
 # and VIEWER_API_TOKEN=<long random string> into .env.
 services:
   3d-lab:
-    build: .
+    build:
+      context: .
+      dockerfile: Containerfile
     image: 3d-lab
     ports:
       - "8080:8080"

@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
   workflow_dispatch:
 
@@ -87,7 +87,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: Build image
-        run: docker build -t 3d-lab:ci .
+        run: docker build -f Containerfile -t 3d-lab:ci .
       - name: Smoke test
         run: |
           docker run -d --name lab3d -p 8080:8080 3d-lab:ci
@@ -96,4 +96,4 @@ jobs:
           docker exec lab3d 3d-lab healthcheck
       - name: Container logs
         if: failure()
-        run: docker logs lab3d
+        run: docker logs lab3d || true
