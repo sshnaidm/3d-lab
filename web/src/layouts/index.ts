@@ -17,8 +17,8 @@ const TEMPLATES = models.layouts
   .map((l) => ({ match: new RegExp(l.match, 'i'), factory: FACTORIES[l.id] }))
 
 export function resolveLayout(topo: Topology): Layout {
-  const models = [topo.system.model, topo.chassis.model].filter(Boolean).join(' ')
-  const template = TEMPLATES.find((t) => t.match.test(models))
+  const modelText = [topo.system.model, topo.chassis.model].filter(Boolean).join(' ')
+  const template = TEMPLATES.find((t) => t.match.test(modelText))
   return (template?.factory ?? genericLayout)(topo)
 }
 

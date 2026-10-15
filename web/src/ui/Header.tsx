@@ -41,6 +41,8 @@ function HistoryPicker({ serverId, capturedAt }: { serverId: string; capturedAt:
     return () => {
       live = false
     }
+    // capturedAt is a trigger: a refresh that changed the hardware adds a history entry.
+    // oxlint-disable-next-line react/exhaustive-effect-dependencies
   }, [serverId, capturedAt])
 
   // The newest snapshot is the current hardware; comparing needs an older one.

@@ -31,7 +31,9 @@ compose.yaml          podman/docker compose example
 - **Redact captures.** Tests and `web/public/topology` must contain only redacted captures
   (`3d-lab capture` redacts by default). Use neutral host names (`db-01`, `lab1`, `leaf-sw01`),
   never real ones.
-- **Lint:** Python is formatted with `black -l 120` and checked with `flake8` (CI runs both).
+- **Lint:** Python is formatted with `black -l 120` (line width 120) and checked with `flake8`; the web UI is
+  checked with `npm run lint` (oxlint, config in `web/.oxlintrc.json`) and `npm run typecheck`. CI runs all
+  four in its `lint` job (`pip install '.[lint]'` gives the pinned Python linters).
 
 ## Data flow
 
@@ -137,7 +139,7 @@ It also tests the model → layout mapping.
     `write_inventory()`.
   - `fixtures/dell_r750_captured.json` and `dell_r650_captured.json` are redacted real iDRAC9 captures.
   - `dell_r750.json` and `supermicro_x11.json` are smaller fixtures for the topology builder.
-- **UI:** `cd web && npm ci && npm test && npm run build`.
+- **UI:** `cd web && npm ci && npm run lint && npm test && npm run build`.
 - **Container:** `podman build -t 3d-lab .`.
   - The build stage runs `npm test`.
   - CI also starts the image and checks `/api/health` and the UI.

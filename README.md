@@ -221,12 +221,15 @@ server for BMC and switch operations, because both read the same server and secr
 
 ## Development
 
-[AGENTS.md](AGENTS.md) covers the architecture, the topology schema and how layouts work.
+[AGENTS.md](AGENTS.md) covers the architecture, the topology schema and how layouts work. CI
+(`.github/workflows/ci.yml`) runs the same linters and tests on every push and pull request, then builds and
+smoke-tests the container.
 
 ```bash
-pip install -e '.[test]' && pytest                 # collector, store, API, wiring, topology builder
+pip install -e '.[test,lint]' && pytest           # collector, store, API, wiring, topology builder
 black --check -l 120 lab3d tests && flake8 lab3d tests
-cd web && npm ci && npm test && npm run dev        # layout validation; the dev server proxies /api to :8080
+cd web && npm ci && npm run lint && npm run typecheck
+npm test && npm run dev                            # layout validation; the dev server proxies /api to :8080
 ```
 
 ## Credits

@@ -20,6 +20,8 @@ Repository = "https://github.com/sshnaidm/3d-lab"
 
 [project.optional-dependencies]
 test = ["pytest", "pytest-asyncio", "pytest-cov"]
+# Pinned to a major version so a new yearly black style doesn't break CI unannounced.
+lint = ["black~=26.0", "flake8~=7.0"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

@@ -140,6 +140,8 @@ function ShadowSync() {
       gl.shadowMap.autoUpdate = true
     }
   }, [gl])
+  // The store values are triggers only: any of them changes what casts shadows.
+  // oxlint-disable-next-line react/exhaustive-effect-dependencies
   useEffect(() => sceneChanged({ gl, invalidate }), [gl, invalidate, scene, hideEmpty, colorMode, lidOn, exploded])
   return null
 }

@@ -4,34 +4,70 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# A new push to the same branch or PR cancels the run still in progress.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  python:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Install linters
+        run: |
+          pip install '.[lint]'
+          npm ci --prefix web
+      - name: black
+        run: black --check --diff -l 120 lab3d tests
+      - name: flake8
+        run: flake8 lab3d tests
+      - name: oxlint (web)
+        run: npm run lint --prefix web
+      - name: TypeScript type-check (web)
+        run: npm run typecheck --prefix web
+
+  test-python:
+    name: Test (Python ${{ matrix.python-version }})
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        python-version: ["3.10", "3.12", "3.13"]
+        python-version: ["3.10", "3.12", "3.14"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python-version }}
-      - run: pip install -e '.[test]' flake8 black
-      - name: Lint
-        run: |
-          black --check --diff -l 120 lab3d tests
-          flake8 lab3d tests
-      - name: Test
+          cache: pip
+      - run: pip install -e '.[test]'
+      - name: pytest
         run: pytest
 
-  web:
+  test-web:
+    name: Test (web)
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: web
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
           cache: npm
@@ -39,21 +75,25 @@ jobs:
       - run: npm ci
       # Layout validation: every captured and fully populated model places all its slotted parts, inside the
       # chassis, with no two parts in the same space.
-      - name: Test (vitest)
+      - name: vitest
         run: npm test
-      - name: Type-check and build
+      - name: Build
         run: npm run build
 
   container:
+    name: Container
     runs-on: ubuntu-latest
-    needs: [python, web]
+    needs: [lint, test-python, test-web]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Build image
         run: docker build -t 3d-lab:ci .
       - name: Smoke test
         run: |
-          docker run -d --name se -p 8080:8080 3d-lab:ci
+          docker run -d --name lab3d -p 8080:8080 3d-lab:ci
           for i in $(seq 1 20); do curl -fs localhost:8080/api/health && break; sleep 1; done
           curl -fs localhost:8080/ | grep -q "<title>3D Lab</title>"
-          docker exec se 3d-lab healthcheck
+          docker exec lab3d 3d-lab healthcheck
+      - name: Container logs
+        if: failure()
+        run: docker logs lab3d
