@@ -28,8 +28,8 @@ server.
 
 ## Try it in a minute (no BMCs needed)
 
-The repository ships two real servers (an R750 and an R650, redacted) and two samples. The UI can show them
-without the service:
+The repository ships two real servers (an R750 and an R650) and two samples. Their serials, service tags, MACs
+and IPs are invented. The UI can show them without the service:
 
 ```bash
 git clone https://github.com/sshnaidm/3d-lab.git

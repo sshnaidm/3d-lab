@@ -95,7 +95,7 @@
       "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts"
     },
     "PartNumber": "AOC-S25G-i2S",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "MT7877X89328",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -116,7 +116,7 @@
   "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts/1": {
     "ActiveLinkTechnology": "Ethernet",
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "40:a6:b7:53:e9:42"
     ],
     "Id": "1",
     "LinkStatus": "Up"
@@ -124,7 +124,7 @@
   "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts/2": {
     "ActiveLinkTechnology": "Ethernet",
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "bc:97:e1:1c:e5:02"
     ],
     "Id": "2",
     "LinkStatus": "Up"
@@ -270,7 +270,7 @@
     "Manufacturer": "Supermicro",
     "Model": "Super Server",
     "PowerState": "On",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "CNBBGHT0752M7O",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -315,7 +315,7 @@
     "Name": "Memory 1",
     "OperatingSpeedMhz": 2933,
     "PartNumber": "18ASF2G72PDZ-2G9E1",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "9F02E8D2",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -330,7 +330,7 @@
     "Name": "Memory 2",
     "OperatingSpeedMhz": 2933,
     "PartNumber": "18ASF2G72PDZ-2G9E1",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "8A79023C",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -345,7 +345,7 @@
     "Name": "Memory 3",
     "OperatingSpeedMhz": 2933,
     "PartNumber": "18ASF2G72PDZ-2G9E1",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "39C20066",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -360,7 +360,7 @@
     "Name": "Memory 4",
     "OperatingSpeedMhz": 2933,
     "PartNumber": "18ASF2G72PDZ-2G9E1",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "1FCCD268",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -375,7 +375,7 @@
     "Name": "Memory 5",
     "OperatingSpeedMhz": 2933,
     "PartNumber": "18ASF2G72PDZ-2G9E1",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "A29A0D34",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -390,7 +390,7 @@
     "Name": "Memory 6",
     "OperatingSpeedMhz": 2933,
     "PartNumber": "18ASF2G72PDZ-2G9E1",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "7301EF56",
     "Status": {
       "Health": "OK",
       "State": "Enabled"

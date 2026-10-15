@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "server_id": "sample-x11",
-  "captured_at": "2026-09-30T15:37:18+00:00",
+  "captured_at": "2026-10-15T12:57:01+00:00",
   "system": {
     "vendor": "supermicro",
     "model": "Super Server",
-    "serial": "REDACTED",
+    "serial": "CNBBGHT0752M7O",
     "health": "OK",
     "power_state": "On",
     "bios": "3.5",
@@ -70,10 +70,28 @@
         "Name": "Memory 1",
         "OperatingSpeedMhz": 2933,
         "PartNumber": "18ASF2G72PDZ-2G9E1",
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "9F02E8D2",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-A2",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-A2",
+      "slot_label": "P1-DIMMA2",
+      "present": false,
+      "health": null,
+      "name": "Empty P1-DIMMA2",
+      "summary": {},
+      "raw": {
+        "DeviceLocator": "P1-DIMMA2",
+        "Id": "7",
+        "Name": "Memory 7",
+        "Status": {
+          "State": "Absent"
         }
       }
     },
@@ -101,7 +119,7 @@
         "Name": "Memory 2",
         "OperatingSpeedMhz": 2933,
         "PartNumber": "18ASF2G72PDZ-2G9E1",
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "8A79023C",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -132,7 +150,7 @@
         "Name": "Memory 3",
         "OperatingSpeedMhz": 2933,
         "PartNumber": "18ASF2G72PDZ-2G9E1",
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "39C20066",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -163,10 +181,28 @@
         "Name": "Memory 4",
         "OperatingSpeedMhz": 2933,
         "PartNumber": "18ASF2G72PDZ-2G9E1",
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "1FCCD268",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-D2",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-D2",
+      "slot_label": "P1-DIMMD2",
+      "present": false,
+      "health": null,
+      "name": "Empty P1-DIMMD2",
+      "summary": {},
+      "raw": {
+        "DeviceLocator": "P1-DIMMD2",
+        "Id": "8",
+        "Name": "Memory 8",
+        "Status": {
+          "State": "Absent"
         }
       }
     },
@@ -194,7 +230,7 @@
         "Name": "Memory 5",
         "OperatingSpeedMhz": 2933,
         "PartNumber": "18ASF2G72PDZ-2G9E1",
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "A29A0D34",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -225,7 +261,7 @@
         "Name": "Memory 6",
         "OperatingSpeedMhz": 2933,
         "PartNumber": "18ASF2G72PDZ-2G9E1",
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "7301EF56",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -233,38 +269,63 @@
       }
     },
     {
-      "id": "dimm:P1-A2",
-      "kind": "dimm",
-      "slot_key": "dimm:P1-A2",
-      "slot_label": "P1-DIMMA2",
-      "present": false,
-      "health": null,
-      "name": "Empty P1-DIMMA2",
-      "summary": {},
+      "id": "pcie:1",
+      "kind": "pcie",
+      "slot_key": "pcie:1",
+      "slot_label": "PCIE 1",
+      "present": true,
+      "health": "OK",
+      "name": "AOC-S25G-i2S",
+      "summary": {
+        "category": "network",
+        "manufacturer": "Supermicro",
+        "model": "AOC-S25G-i2S",
+        "part_number": "AOC-S25G-i2S",
+        "port_count": 2,
+        "ports": [
+          {
+            "id": "1",
+            "link_status": "Up",
+            "speed_mbps": null,
+            "mac": "40:a6:b7:53:e9:42"
+          },
+          {
+            "id": "2",
+            "link_status": "Up",
+            "speed_mbps": null,
+            "mac": "bc:97:e1:1c:e5:02"
+          }
+        ]
+      },
       "raw": {
-        "DeviceLocator": "P1-DIMMA2",
-        "Id": "7",
-        "Name": "Memory 7",
+        "Controllers": [
+          {
+            "ControllerCapabilities": {
+              "NetworkPortCount": 2
+            },
+            "Location": {
+              "PartLocation": {
+                "LocationType": "Slot",
+                "ServiceLabel": "CPU1 SLOT1 PCI-E 3.0 X16"
+              }
+            },
+            "PCIeInterface": {
+              "LanesInUse": 8,
+              "PCIeType": "Gen3"
+            }
+          }
+        ],
+        "Id": "2",
+        "Manufacturer": "Supermicro",
+        "Model": "AOC-S25G-i2S",
+        "NetworkPorts": {
+          "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts"
+        },
+        "PartNumber": "AOC-S25G-i2S",
+        "SerialNumber": "MT7877X89328",
         "Status": {
-          "State": "Absent"
-        }
-      }
-    },
-    {
-      "id": "dimm:P1-D2",
-      "kind": "dimm",
-      "slot_key": "dimm:P1-D2",
-      "slot_label": "P1-DIMMD2",
-      "present": false,
-      "health": null,
-      "name": "Empty P1-DIMMD2",
-      "summary": {},
-      "raw": {
-        "DeviceLocator": "P1-DIMMD2",
-        "Id": "8",
-        "Name": "Memory 8",
-        "Status": {
-          "State": "Absent"
+          "Health": "OK",
+          "State": "Enabled"
         }
       }
     },
@@ -302,67 +363,6 @@
         "NetworkPorts": {
           "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1/NetworkPorts"
         },
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "pcie:1",
-      "kind": "pcie",
-      "slot_key": "pcie:1",
-      "slot_label": "PCIE 1",
-      "present": true,
-      "health": "OK",
-      "name": "AOC-S25G-i2S",
-      "summary": {
-        "category": "network",
-        "manufacturer": "Supermicro",
-        "model": "AOC-S25G-i2S",
-        "part_number": "AOC-S25G-i2S",
-        "port_count": 2,
-        "ports": [
-          {
-            "id": "1",
-            "link_status": "Up",
-            "speed_mbps": null,
-            "mac": "00:00:00:00:00:00"
-          },
-          {
-            "id": "2",
-            "link_status": "Up",
-            "speed_mbps": null,
-            "mac": "00:00:00:00:00:00"
-          }
-        ]
-      },
-      "raw": {
-        "Controllers": [
-          {
-            "ControllerCapabilities": {
-              "NetworkPortCount": 2
-            },
-            "Location": {
-              "PartLocation": {
-                "LocationType": "Slot",
-                "ServiceLabel": "CPU1 SLOT1 PCI-E 3.0 X16"
-              }
-            },
-            "PCIeInterface": {
-              "LanesInUse": 8,
-              "PCIeType": "Gen3"
-            }
-          }
-        ],
-        "Id": "2",
-        "Manufacturer": "Supermicro",
-        "Model": "AOC-S25G-i2S",
-        "NetworkPorts": {
-          "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts"
-        },
-        "PartNumber": "AOC-S25G-i2S",
-        "SerialNumber": "REDACTED",
         "Status": {
           "Health": "OK",
           "State": "Enabled"

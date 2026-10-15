@@ -269,7 +269,7 @@ class TestApi:
         path.parent.mkdir()
         path.write_text(
             HEADER
-            # Redacted fixture MACs are all zero: these rows must match by FQDD and slot instead.
+            # An all-zero MAC is ignored: this row must match by FQDD (and the others by slot) instead.
             + "2026-10-01T00:00:00Z,r750-a,eno12399np0,00:00:00:00:00:00,Integrated,NIC.Integrated.1-1-1,p0,"
             "leaf-sw01,ethernet1/1/1:3,up,306,confirmed,\n"
             + "2026-10-01T00:00:00Z,r750-a,ens6f0np0,,Slot 6,,p0,leaf-sw01,ethernet1/1/6,up,306,confirmed,\n"

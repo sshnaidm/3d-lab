@@ -227,7 +227,7 @@ async def _noop():
 
 
 class TestCapturedDell:
-    """Redacted real iDRAC9 captures (`3d-lab capture`) of an R750 and an R650."""
+    """Real iDRAC9 captures (`3d-lab capture`) of an R750 and an R650, identifiers replaced by invented ones."""
 
     async def _topology(self, name, mock_redfish_client):
         mock_redfish_client(_routes(name))

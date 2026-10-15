@@ -66,7 +66,7 @@
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts"
     },
     "PartNumber": "0XXXXX",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "MT3925X23512",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -86,7 +86,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-1": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b8:3f:d2:a3:19:70"
     ],
     "CurrentLinkSpeedMbps": 1000,
     "Id": "NIC.Embedded.1-1",
@@ -94,7 +94,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-2": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b8:3f:d2:a3:19:71"
     ],
     "CurrentLinkSpeedMbps": 1000,
     "Id": "NIC.Embedded.1-2",
@@ -117,7 +117,7 @@
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts"
     },
     "PartNumber": "0XXXXX",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "MT3036X86229",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -137,7 +137,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-1": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "bc:97:e1:26:df:d7"
     ],
     "CurrentLinkSpeedMbps": 10000,
     "Id": "NIC.Integrated.1-1",
@@ -145,7 +145,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-2": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "bc:97:e1:26:df:d8"
     ],
     "CurrentLinkSpeedMbps": 10000,
     "Id": "NIC.Integrated.1-2",
@@ -168,7 +168,7 @@
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts"
     },
     "PartNumber": "0XXXXX",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "MT6837X87020",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -194,7 +194,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-1": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "bc:97:e1:78:8f:4b"
     ],
     "CurrentLinkSpeedMbps": 25000,
     "Id": "NIC.Slot.3-1",
@@ -202,7 +202,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-2": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "bc:97:e1:78:8f:4c"
     ],
     "CurrentLinkSpeedMbps": 25000,
     "Id": "NIC.Slot.3-2",
@@ -210,7 +210,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-3": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "bc:97:e1:78:8f:4d"
     ],
     "CurrentLinkSpeedMbps": 0,
     "Id": "NIC.Slot.3-3",
@@ -218,7 +218,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-4": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "bc:97:e1:78:8f:4e"
     ],
     "CurrentLinkSpeedMbps": 0,
     "Id": "NIC.Slot.3-4",
@@ -241,7 +241,7 @@
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts"
     },
     "PartNumber": "0XXXXX",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "MT1094X72857",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -267,7 +267,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-1": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b8:3f:d2:21:9b:e3"
     ],
     "CurrentLinkSpeedMbps": 25000,
     "Id": "NIC.Slot.6-1",
@@ -275,7 +275,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-2": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b8:3f:d2:21:9b:e4"
     ],
     "CurrentLinkSpeedMbps": 25000,
     "Id": "NIC.Slot.6-2",
@@ -283,7 +283,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-3": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b8:3f:d2:21:9b:e5"
     ],
     "CurrentLinkSpeedMbps": 0,
     "Id": "NIC.Slot.6-3",
@@ -291,7 +291,7 @@
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-4": {
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b8:3f:d2:21:9b:e6"
     ],
     "CurrentLinkSpeedMbps": 0,
     "Id": "NIC.Slot.6-4",
@@ -583,7 +583,7 @@
         "PartNumber": "01CW9GA08",
         "PowerCapacityWatts": 1400,
         "PowerInputWatts": 312,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "CNBFG0047U4490",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -599,7 +599,7 @@
         "PartNumber": "01CW9GA08",
         "PowerCapacityWatts": 1400,
         "PowerInputWatts": 0,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "CNKJL006081760",
         "Status": {
           "Health": "Warning",
           "State": "Enabled"
@@ -750,7 +750,7 @@
     "Manufacturer": "Dell Inc.",
     "Model": "PowerEdge R750",
     "PowerState": "On",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "CNGBMSX190UVWT",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -825,7 +825,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "AD082E0F",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -846,7 +846,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "205A0892",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -867,7 +867,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "7A1D6A93",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -888,7 +888,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "808AA227",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -909,7 +909,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "9B71F794",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -930,7 +930,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "7EAEECDA",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -951,7 +951,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "C6DD39F1",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -972,7 +972,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "A37BACD3",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -993,7 +993,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "00AE6194",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1014,7 +1014,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "5C554DB5",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1035,7 +1035,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "E9AEC19B",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1056,7 +1056,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "DBC718F6",
     "Status": {
       "Health": "Critical",
       "State": "Enabled"
@@ -1077,7 +1077,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "FB21BC2C",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1098,7 +1098,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "125DB902",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1119,7 +1119,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "ACC5482C",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1140,7 +1140,7 @@
     "OperatingSpeedMhz": 3200,
     "PartNumber": "36ASF4G72PZ-3G2R1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "1034A09B",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1255,7 +1255,7 @@
     },
     "Protocol": "SATA",
     "Revision": "DG58",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SHKUNA0A035194",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1276,7 +1276,7 @@
     },
     "Protocol": "SATA",
     "Revision": "DG58",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SMXFNA0Y317228",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1297,7 +1297,7 @@
     },
     "Protocol": "SATA",
     "Revision": "DG58",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "STCDNA0R952826",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1318,7 +1318,7 @@
     },
     "Protocol": "SATA",
     "Revision": "DG58",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SBEKNA0L890493",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1339,7 +1339,7 @@
     },
     "Protocol": "SATA",
     "Revision": "DG58",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SWFRNA0F276020",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1360,7 +1360,7 @@
     },
     "Protocol": "SATA",
     "Revision": "DG58",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SCVTNA0E309035",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1381,7 +1381,7 @@
     },
     "Protocol": "SATA",
     "Revision": "DG58",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SXTSNA0H831955",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -1402,7 +1402,7 @@
     },
     "Protocol": "SATA",
     "Revision": "DG58",
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SVXLNA0A918286",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
