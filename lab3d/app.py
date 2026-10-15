@@ -488,8 +488,24 @@ def _norm_mac(text: str) -> str:
     return re.sub(r"[^0-9a-f]", "", text.lower())
 
 
+def _compact(text: str) -> str:
+    return re.sub(r"[^0-9a-z]", "", text.lower())
+
+
+def _text_matcher(q: str):
+    """Substring match that also ignores punctuation and spaces, so `ConnectX-6` finds "ConnectX6"."""
+    loose = _compact(q)
+    if len(loose) < 2:
+        return lambda value: q in value.lower()
+    return lambda value: q in value.lower() or loose in _compact(value)
+
+
 async def search(request: Request) -> JSONResponse:
-    """Case-insensitive substring search over host ids, models, serials, MACs, part names and switch ports."""
+    """Case-insensitive substring search over host ids, models, serials, MACs, part names and switch ports.
+
+    Text fields also match with punctuation and spaces ignored. Switch ports and MACs keep their own rules, so
+    `ethernet1/1/1` doesn't find `ethernet1/11`.
+    """
     require_read(request)
     q = (request.query_params.get("q") or "").strip().lower()
     if len(q) < 2:
@@ -499,6 +515,7 @@ async def search(request: Request) -> JSONResponse:
         limit = max(1, min(int(request.query_params.get("limit") or 200), 1000))
     except ValueError:
         raise HTTPException(400, "limit must be an integer") from None
+    matches = _text_matcher(q)
     store: Store = request.app.state.store
     results = []
     total = 0
@@ -506,9 +523,9 @@ async def search(request: Request) -> JSONResponse:
         hits = []
         for field in ("id", "model", "serial", "lab", "rack", "cpu_model", "description"):
             value = row.get(field)
-            if isinstance(value, str) and q in value.lower():
+            if isinstance(value, str) and matches(value):
                 hits.append({"field": field, "value": value})
-        if any(q in t.lower() for t in row.get("tags") or []):
+        if any(matches(t) for t in row.get("tags") or []):
             hits.append({"field": "tags", "value": ", ".join(row["tags"])})
         topo = request.app.state.wiring.apply(store.get(row["id"]) or {}) if row.get("captured_at") else None
         for c in (topo or {}).get("components") or []:
@@ -523,7 +540,7 @@ async def search(request: Request) -> JSONResponse:
                 "health": c.get("health") if c.get("health") not in (None, "OK") else None,
             }
             for field, value in values.items():
-                if isinstance(value, str) and q in value.lower():
+                if isinstance(value, str) and matches(value):
                     hits.append({"field": field, "value": value, "component": c["id"], "slot_key": c.get("slot_key")})
             for port in summary.get("ports") or []:
                 mac = port.get("mac") or ""
