@@ -46,8 +46,8 @@
         "@odata.context": "/redfish/v1/$metadata#DellServiceRoot.DellServiceRoot",
         "@odata.type": "#DellServiceRoot.v1_0_0.DellServiceRoot",
         "IsBranded": 0,
-        "ManagerMACAddress": "00:00:00:00:00:00",
-        "ServiceTag": "REDACTED"
+        "ManagerMACAddress": "b0:7b:25:d4:7e:31",
+        "ServiceTag": "3NQ9MC8"
       }
     },
     "Product": "Integrated Dell Remote Access Controller",
@@ -72,7 +72,7 @@
     "Registries": {
       "@odata.id": "/redfish/v1/Registries"
     },
-    "ServiceIdentification": "REDACTED",
+    "ServiceIdentification": "3NQ9MC8",
     "SessionService": {
       "@odata.id": "/redfish/v1/SessionService"
     },
@@ -320,11 +320,11 @@
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PowerSubsystem"
     },
     "PoweredByParent": false,
-    "SKU": "REDACTED",
+    "SKU": "3NQ9MC8",
     "Sensors": {
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Sensors"
     },
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "CNDNNMB792LF16",
     "Status": {
       "Health": "OK",
       "HealthRollup": "OK",
@@ -341,7 +341,7 @@
     "TrustedComponents": {
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/TrustedComponents"
     },
-    "UUID": "REDACTED"
+    "UUID": "4c4c4544-004e-5110-8039-b3c04f4d4338"
   },
   "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters": {
     "@odata.context": "/redfish/v1/$metadata#NetworkAdapterCollection.NetworkAdapterCollection",
@@ -478,7 +478,7 @@
     "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
     "ActiveLinkTechnology": "Ethernet",
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "40:a6:b7:a6:71:24"
     ],
     "CurrentLinkSpeedMbps": 0,
     "Description": "Network Port View",
@@ -535,7 +535,7 @@
     "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
     "ActiveLinkTechnology": "Ethernet",
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b8:3f:d2:ac:1a:cc"
     ],
     "CurrentLinkSpeedMbps": 0,
     "Description": "Network Port View",
@@ -610,7 +610,7 @@
     "Description": "Instance of Port for NIC",
     "Ethernet": {
       "AssociatedMACAddresses": [
-        "00:00:00:00:00:00"
+        "40:a6:b7:a6:71:24"
       ],
       "EEEEnabled": true,
       "FlowControlConfiguration": "None",
@@ -662,7 +662,7 @@
     "Description": "Instance of Port for NIC",
     "Ethernet": {
       "AssociatedMACAddresses": [
-        "00:00:00:00:00:00"
+        "b8:3f:d2:ac:1a:cc"
       ],
       "EEEEnabled": true,
       "FlowControlConfiguration": "None",
@@ -797,7 +797,7 @@
     "Ports": {
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/Ports"
     },
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "MT4955X10329",
     "Status": {
       "Health": "OK",
       "HealthRollup": "OK",
@@ -826,7 +826,7 @@
     "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
     "ActiveLinkTechnology": "Ethernet",
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b4:96:91:a7:16:a6"
     ],
     "CurrentLinkSpeedMbps": 25000,
     "Description": "Network Port View",
@@ -869,7 +869,7 @@
           "Name": "DellNetworkTransceiver",
           "PartNumber": "T1-AOC-25GB-3M",
           "Revision": "",
-          "SerialNumber": "REDACTED",
+          "SerialNumber": "MT3962X83735",
           "VendorName": "DELL-T1NEXUS"
         },
         "DellNetworkTransceiverPortMetrics": {
@@ -919,7 +919,7 @@
     "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
     "ActiveLinkTechnology": "Ethernet",
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b4:96:91:a7:16:a7"
     ],
     "CurrentLinkSpeedMbps": 25000,
     "Description": "Network Port View",
@@ -993,15 +993,15 @@
     "Description": "Instance of Port for NIC",
     "Ethernet": {
       "AssociatedMACAddresses": [
-        "00:00:00:00:00:00"
+        "b4:96:91:a7:16:a6"
       ],
       "EEEEnabled": null,
       "FlowControlConfiguration": "None",
       "FlowControlStatus": "None",
       "LLDPReceive": {
-        "ChassisId": "00:00:00:00:00:00",
+        "ChassisId": "b4:96:91:a7:16:a6",
         "ChassisIdSubtype": "MacAddr",
-        "PortId": "00:00:00:00:00:00:00:00:00:00:00:00:35:3A:32",
+        "PortId": "b4:96:91:a7:16:a6:b4:96:91:a7:16:a6:35:3A:32",
         "PortIdSubtype": "IfName"
       },
       "WakeOnLANEnabled": true
@@ -1050,15 +1050,15 @@
     "Description": "Instance of Port for NIC",
     "Ethernet": {
       "AssociatedMACAddresses": [
-        "00:00:00:00:00:00"
+        "b4:96:91:a7:16:a7"
       ],
       "EEEEnabled": null,
       "FlowControlConfiguration": "None",
       "FlowControlStatus": "None",
       "LLDPReceive": {
-        "ChassisId": "00:00:00:00:00:00",
+        "ChassisId": "b4:96:91:a7:16:a7",
         "ChassisIdSubtype": "MacAddr",
-        "PortId": "00:00:00:00:00:00:00:00:00:00:00:00:35:3A:32",
+        "PortId": "b4:96:91:a7:16:a7:b4:96:91:a7:16:a7:35:3A:32",
         "PortIdSubtype": "IfName"
       },
       "WakeOnLANEnabled": true
@@ -1190,7 +1190,7 @@
     "Ports": {
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/Ports"
     },
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "MT7614X47747",
     "Status": {
       "Health": "OK",
       "HealthRollup": "OK",
@@ -1219,7 +1219,7 @@
     "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
     "ActiveLinkTechnology": "Ethernet",
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b4:96:91:b1:19:45"
     ],
     "CurrentLinkSpeedMbps": 0,
     "Description": "Network Port View",
@@ -1273,7 +1273,7 @@
     "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
     "ActiveLinkTechnology": "Ethernet",
     "AssociatedNetworkAddresses": [
-      "00:00:00:00:00:00"
+      "b4:96:91:b1:19:46"
     ],
     "CurrentLinkSpeedMbps": 100000,
     "Description": "Network Port View",
@@ -1316,7 +1316,7 @@
           "Name": "DellNetworkTransceiver",
           "PartNumber": "T1-AOC-100G-2M",
           "Revision": "",
-          "SerialNumber": "REDACTED",
+          "SerialNumber": "MT1741X49844",
           "VendorName": "DELL-T1NEXUS"
         },
         "DellNetworkTransceiverPortMetrics": {
@@ -1382,7 +1382,7 @@
     "Description": "Instance of Port for NIC",
     "Ethernet": {
       "AssociatedMACAddresses": [
-        "00:00:00:00:00:00"
+        "b4:96:91:b1:19:45"
       ],
       "EEEEnabled": null,
       "FlowControlConfiguration": "None",
@@ -1434,15 +1434,15 @@
     "Description": "Instance of Port for NIC",
     "Ethernet": {
       "AssociatedMACAddresses": [
-        "00:00:00:00:00:00"
+        "b4:96:91:b1:19:46"
       ],
       "EEEEnabled": null,
       "FlowControlConfiguration": "None",
       "FlowControlStatus": "None",
       "LLDPReceive": {
-        "ChassisId": "00:00:00:00:00:00",
+        "ChassisId": "b4:96:91:b1:19:46",
         "ChassisIdSubtype": "MacAddr",
-        "PortId": "00:00:00:00:00:00:00:00:00:00:00:00:31:32",
+        "PortId": "b4:96:91:b1:19:46:b4:96:91:b1:19:46:31:32",
         "PortIdSubtype": "IfName"
       },
       "WakeOnLANEnabled": null
@@ -2116,7 +2116,7 @@
     },
     "PartNumber": "0JT47Y",
     "SKU": null,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "O180351TJCBX",
     "Slot": {},
     "Status": {
       "Health": "OK",
@@ -2249,7 +2249,7 @@
     },
     "PartNumber": "0F6FXM",
     "SKU": null,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "0Q50I4KZ1E30",
     "Slot": {
       "Lanes": 16,
       "Location": {
@@ -2714,7 +2714,7 @@
     },
     "PartNumber": "061X09",
     "SKU": null,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "LGLFXC0MI87N",
     "Slot": {},
     "Status": {
       "Health": "OK",
@@ -3262,8 +3262,8 @@
             "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
           }
         ],
-        "SerialNumber": "REDACTED",
-        "SparePartNumber": "REDACTED",
+        "SerialNumber": "CNDPO0080X9572",
+        "SparePartNumber": "0WWI65",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -3380,8 +3380,8 @@
             "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
           }
         ],
-        "SerialNumber": "REDACTED",
-        "SparePartNumber": "REDACTED",
+        "SerialNumber": "CNASS0033H9550",
+        "SparePartNumber": "0PMPB6",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -5546,7 +5546,7 @@
           "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
           "LastUpdateTime": "2026-09-30T21:30:07+00:00",
           "Name": "DelliDRACCard",
-          "URLString": "https://0.0.0.0:443"
+          "URLString": "https://10.203.85.44:443"
         },
         "RemoteSystemLogs": {
           "CA": {
@@ -5581,13 +5581,13 @@
     "SerialInterfaces": {
       "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/SerialInterfaces"
     },
-    "ServiceIdentification": "REDACTED",
+    "ServiceIdentification": "3NQ9MC8",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
     },
     "TimeZoneName": "CST6CDT",
-    "UUID": "REDACTED",
+    "UUID": "06c2e9d0-83e1-4e1d-84ca-e435be6814ea",
     "VirtualMedia": {
       "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/VirtualMedia"
     },
@@ -5876,13 +5876,13 @@
           "CPURollupStatus": "OK",
           "ChassisModel": null,
           "ChassisName": "Main System Chassis",
-          "ChassisServiceTag": "REDACTED",
+          "ChassisServiceTag": "3NQ9MC8",
           "ChassisSystemHeightUnit": 2,
           "CoolingRollupStatus": "OK",
           "CurrentRollupStatus": "OK",
           "EstimatedExhaustTemperatureCelsius": 44,
           "EstimatedSystemAirflowCFM": 43,
-          "ExpressServiceCode": "REDACTED",
+          "ExpressServiceCode": "7965187928",
           "FanRollupStatus": "OK",
           "IDSDMRedundancyStatus": null,
           "IDSDMRollupStatus": null,
@@ -5899,7 +5899,7 @@
           "MaxSystemMemoryMiB": 10485760,
           "MemoryOperationMode": "OptimizerMode",
           "Name": "DellSystem",
-          "NodeID": "REDACTED",
+          "NodeID": "3NQ9MC8",
           "PSRollupStatus": "OK",
           "PlatformGUID": "3348544f-c0c7-4d80-5310-00304c4c4544",
           "PopulatedDIMMSlots": 16,
@@ -5919,7 +5919,7 @@
           "SystemRevision": "I",
           "TempRollupStatus": "OK",
           "TempStatisticsRollupStatus": "OK",
-          "UUID": "REDACTED",
+          "UUID": "4c4c4544-004e-5110-8039-b3c04f4d4338",
           "VoltRollupStatus": "OK",
           "smbiosGUID": "44454c4c-3000-1053-804d-c7c04f544833"
         }
@@ -6018,11 +6018,11 @@
     "Processors": {
       "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors"
     },
-    "SKU": "REDACTED",
+    "SKU": "3NQ9MC8",
     "SecureBoot": {
       "@odata.id": "/redfish/v1/Systems/System.Embedded.1/SecureBoot"
     },
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "CNMPFQL166KOKR",
     "SimpleStorage": {
       "@odata.id": "/redfish/v1/Systems/System.Embedded.1/SimpleStorage"
     },
@@ -6045,7 +6045,7 @@
       }
     ],
     "TrustedModules@odata.count": 1,
-    "UUID": "REDACTED",
+    "UUID": "4c4c4544-004e-5110-8039-b3c04f4d4338",
     "VirtualMedia": {
       "@odata.id": "/redfish/v1/Systems/System.Embedded.1/VirtualMedia"
     },
@@ -6108,13 +6108,13 @@
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
       }
     },
-    "MACAddress": "REDACTED",
+    "MACAddress": "40:a6:b7:a6:71:24",
     "MTUSize": null,
     "MaxIPv6StaticAddresses": null,
     "Name": "System Ethernet Interface",
     "NameServers": [],
     "NameServers@odata.count": 0,
-    "PermanentMACAddress": "REDACTED",
+    "PermanentMACAddress": "40:a6:b7:a6:71:24",
     "SpeedMbps": 0,
     "Status": {
       "Health": "OK",
@@ -6150,13 +6150,13 @@
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
       }
     },
-    "MACAddress": "REDACTED",
+    "MACAddress": "b8:3f:d2:ac:1a:cc",
     "MTUSize": null,
     "MaxIPv6StaticAddresses": null,
     "Name": "System Ethernet Interface",
     "NameServers": [],
     "NameServers@odata.count": 0,
-    "PermanentMACAddress": "REDACTED",
+    "PermanentMACAddress": "b8:3f:d2:ac:1a:cc",
     "SpeedMbps": 0,
     "Status": {
       "Health": "OK",
@@ -6192,13 +6192,13 @@
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
       }
     },
-    "MACAddress": "REDACTED",
+    "MACAddress": "b4:96:91:a7:16:a6",
     "MTUSize": null,
     "MaxIPv6StaticAddresses": null,
     "Name": "System Ethernet Interface",
     "NameServers": [],
     "NameServers@odata.count": 0,
-    "PermanentMACAddress": "REDACTED",
+    "PermanentMACAddress": "b4:96:91:a7:16:a6",
     "SpeedMbps": 25000,
     "Status": {
       "Health": "OK",
@@ -6234,13 +6234,13 @@
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
       }
     },
-    "MACAddress": "REDACTED",
+    "MACAddress": "b4:96:91:a7:16:a7",
     "MTUSize": null,
     "MaxIPv6StaticAddresses": null,
     "Name": "System Ethernet Interface",
     "NameServers": [],
     "NameServers@odata.count": 0,
-    "PermanentMACAddress": "REDACTED",
+    "PermanentMACAddress": "b4:96:91:a7:16:a7",
     "SpeedMbps": 25000,
     "Status": {
       "Health": "OK",
@@ -6276,13 +6276,13 @@
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
       }
     },
-    "MACAddress": "REDACTED",
+    "MACAddress": "b4:96:91:b1:19:45",
     "MTUSize": null,
     "MaxIPv6StaticAddresses": null,
     "Name": "System Ethernet Interface",
     "NameServers": [],
     "NameServers@odata.count": 0,
-    "PermanentMACAddress": "REDACTED",
+    "PermanentMACAddress": "b4:96:91:b1:19:45",
     "SpeedMbps": 0,
     "Status": {
       "Health": "OK",
@@ -6318,13 +6318,13 @@
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
       }
     },
-    "MACAddress": "REDACTED",
+    "MACAddress": "b4:96:91:b1:19:46",
     "MTUSize": null,
     "MaxIPv6StaticAddresses": null,
     "Name": "System Ethernet Interface",
     "NameServers": [],
     "NameServers@odata.count": 0,
-    "PermanentMACAddress": "REDACTED",
+    "PermanentMACAddress": "b4:96:91:b1:19:46",
     "SpeedMbps": 100000,
     "Status": {
       "Health": "OK",
@@ -6477,7 +6477,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "30E52C72",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -6570,7 +6570,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "E9A590DE",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -6663,7 +6663,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "895F55E5",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -6756,7 +6756,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "6E7F26A7",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -6849,7 +6849,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "CA178ED7",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -6942,7 +6942,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "85E47F18",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7035,7 +7035,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "1FDB1EBC",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7128,7 +7128,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "D91458AE",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7221,7 +7221,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "F2D88C1B",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7314,7 +7314,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "B72086E4",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7407,7 +7407,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "1521480B",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7500,7 +7500,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "B04DF87D",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7593,7 +7593,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "5AD53205",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7686,7 +7686,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "C9326340",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7779,7 +7779,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "F40721F4",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -7872,7 +7872,7 @@
     "OperatingSpeedMhz": 2666,
     "PartNumber": "18ASF2G72PDZ-3G2E1",
     "RankCount": 2,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "919DDD29",
     "Status": {
       "Health": "OK",
       "State": "Enabled"
@@ -8490,7 +8490,7 @@
     "Id": "RAID.SL.3-1",
     "Identifiers": [
       {
-        "DurableName": "REDACTED",
+        "DurableName": "54CD98F03BDF39FF",
         "DurableNameFormat": "NAA"
       }
     ],
@@ -8600,7 +8600,7 @@
         "FirmwareVersion": "51.16.0-4076",
         "Identifiers": [
           {
-            "DurableName": "REDACTED",
+            "DurableName": "54CD98F09761E86B",
             "DurableNameFormat": "NAA"
           }
         ],
@@ -8684,7 +8684,7 @@
     "Id": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
     "Identifiers": [
       {
-        "DurableName": "REDACTED",
+        "DurableName": "5002538AE32F8361",
         "DurableNameFormat": "NAA"
       }
     ],
@@ -8758,7 +8758,7 @@
           "OperationPercentCompletePercent": 0,
           "PCIeCapableLinkWidth": "None",
           "PCIeNegotiatedLinkWidth": "None",
-          "PPID": "REDACTED",
+          "PPID": "SG-0SQRLI-LWCG7-9Z6-PF73-A00",
           "PowerStatus": "On",
           "PredictiveFailureState": "SmartAlertAbsent",
           "ProductID": "MZ7KH480HAHQ0D3",
@@ -8783,7 +8783,7 @@
     },
     "Operations": [],
     "Operations@odata.count": 0,
-    "PartNumber": "XX-03KVC5-00000-000-0000-A03",
+    "PartNumber": "MX-03KVC5-D4M9I-17U-5CJ6-A03",
     "PhysicalLocation": {
       "PartLocation": {
         "LocationOrdinalValue": 0,
@@ -8794,7 +8794,7 @@
     "Protocol": "SATA",
     "Revision": "HF58",
     "RotationSpeedRPM": null,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SNKJNA0B576225",
     "Status": {
       "Health": "OK",
       "HealthRollup": "OK",
@@ -8836,7 +8836,7 @@
     "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
     "Identifiers": [
       {
-        "DurableName": "REDACTED",
+        "DurableName": "500253826D95E681",
         "DurableNameFormat": "NAA"
       }
     ],
@@ -8910,7 +8910,7 @@
           "OperationPercentCompletePercent": 0,
           "PCIeCapableLinkWidth": "None",
           "PCIeNegotiatedLinkWidth": "None",
-          "PPID": "REDACTED",
+          "PPID": "CN-0AYPUY-GFWS3-0Z8-0YO7-A02",
           "PowerStatus": "On",
           "PredictiveFailureState": "SmartAlertAbsent",
           "ProductID": "MZ7KH480HAHQ0D3",
@@ -8935,7 +8935,7 @@
     },
     "Operations": [],
     "Operations@odata.count": 0,
-    "PartNumber": "XX-03KVC5-00000-000-0000-A03",
+    "PartNumber": "MY-03KVC5-HMP09-8D9-VGAX-A03",
     "PhysicalLocation": {
       "PartLocation": {
         "LocationOrdinalValue": 1,
@@ -8946,7 +8946,7 @@
     "Protocol": "SATA",
     "Revision": "HF58",
     "RotationSpeedRPM": null,
-    "SerialNumber": "REDACTED",
+    "SerialNumber": "SZPINA0M347945",
     "Status": {
       "Health": "OK",
       "HealthRollup": "OK",

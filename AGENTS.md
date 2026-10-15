@@ -16,7 +16,7 @@ lab3d/      Python service and CLI (Starlette + httpx, no other runtime deps bes
   settings.py         config file + VIEWER_* env + CLI overrides
   cli.py              3d-lab [serve] | collect | capture | export | healthcheck
 web/                  React 19 + React Three Fiber UI (Vite, Tailwind 4, zustand, vitest)
-tests/                pytest; fixtures/ are redacted real Redfish captures
+tests/                pytest; fixtures/ are real Redfish captures with invented identifiers
 examples/             config.yaml, redfish_servers.yaml, redfish_secrets.yaml, wiring.csv
 Containerfile         node build stage + python:3.12-slim runtime; /config (ro) and /data volumes
 compose.yaml          podman/docker compose example
@@ -28,9 +28,10 @@ compose.yaml          podman/docker compose example
   that way.
 - **Never log or return credentials or BMC addresses.** `classify_error` strips IPs and URLs from
   messages, and `BMCClient.__repr__` hides credentials.
-- **Redact captures.** Tests and `web/public/topology` must contain only redacted captures
-  (`3d-lab capture` redacts by default). Use neutral host names (`db-01`, `lab1`, `leaf-sw01`),
-  never real ones.
+- **No real identifiers in the repo.** Tests and `web/public/topology` must never contain real serials,
+  service tags, UUIDs, MACs or IPs. `3d-lab capture` redacts them by default; the committed fixtures carry
+  invented values of the same shape instead. Use neutral host names (`db-01`, `lab1`, `leaf-sw01`), never
+  real ones.
 - **Lint:** Python is formatted with `black -l 120` (line width 120) and checked with `flake8`; the web UI is
   checked with `npm run lint` (oxlint, config in `web/.oxlintrc.json`) and `npm run typecheck`. CI runs all
   four in its `lint` job (`pip install '.[lint]'` gives the pinned Python linters).
@@ -137,7 +138,9 @@ It also tests the model → layout mapping.
 - **Python:** `pip install -e '.[test]' && pytest`.
   - `tests/conftest.py` provides `mock_redfish_client(routes)`, a fake HTTP client that only has `get`, and
     `write_inventory()`.
-  - `fixtures/dell_r750_captured.json` and `dell_r650_captured.json` are redacted real iDRAC9 captures.
+  - `fixtures/dell_r750_captured.json` and `dell_r650_captured.json` are real iDRAC9 captures. Every
+    identifier (serials, service tags, UUIDs, PPIDs, WWNs, MACs, IPs) is replaced by an invented value of
+    the same shape, so they look real but point to no real machine.
   - `dell_r750.json` and `supermicro_x11.json` are smaller fixtures for the topology builder.
 - **UI:** `cd web && npm ci && npm run lint && npm test && npm run build`.
 - **Container:** `podman build -t 3d-lab .`.

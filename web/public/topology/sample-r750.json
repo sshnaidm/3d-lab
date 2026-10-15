@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "server_id": "sample-r750",
-  "captured_at": "2026-09-30T15:37:17+00:00",
+  "captured_at": "2026-10-15T12:57:01+00:00",
   "system": {
     "vendor": "dell",
     "model": "PowerEdge R750",
-    "serial": "REDACTED",
+    "serial": "CNGBMSX190UVWT",
     "health": "OK",
     "power_state": "On",
     "bios": "1.14.1",
@@ -117,7 +117,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "AD082E0F",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -159,7 +159,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "205A0892",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -201,7 +201,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "7A1D6A93",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -243,7 +243,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "808AA227",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -285,7 +285,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "9B71F794",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -327,7 +327,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "7EAEECDA",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -369,7 +369,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "C6DD39F1",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -411,7 +411,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "A37BACD3",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -453,7 +453,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "00AE6194",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -495,7 +495,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "5C554DB5",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -537,7 +537,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "E9AEC19B",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -579,7 +579,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "DBC718F6",
         "Status": {
           "Health": "Critical",
           "State": "Enabled"
@@ -621,7 +621,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "FB21BC2C",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -663,7 +663,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "125DB902",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -705,7 +705,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "ACC5482C",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -747,115 +747,7 @@
         "OperatingSpeedMhz": 3200,
         "PartNumber": "36ASF4G72PZ-3G2R1",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "lom:1",
-      "kind": "lom",
-      "slot_key": "lom:1",
-      "slot_label": "LOM 1",
-      "present": true,
-      "health": "OK",
-      "name": "Broadcom Gigabit Ethernet BCM5720",
-      "summary": {
-        "category": "network",
-        "manufacturer": "Broadcom Inc. and subsidiaries",
-        "model": "Broadcom Gigabit Ethernet BCM5720",
-        "part_number": "0XXXXX",
-        "firmware": "22.31.6",
-        "port_count": 2,
-        "ports": [
-          {
-            "id": "NIC.Embedded.1-1",
-            "link_status": "Up",
-            "speed_mbps": 1000,
-            "mac": "00:00:00:00:00:00"
-          },
-          {
-            "id": "NIC.Embedded.1-2",
-            "link_status": "Up",
-            "speed_mbps": 1000,
-            "mac": "00:00:00:00:00:00"
-          }
-        ]
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1",
-        "Controllers": [
-          {
-            "ControllerCapabilities": {
-              "NetworkPortCount": 2
-            },
-            "FirmwarePackageVersion": "22.31.6"
-          }
-        ],
-        "Id": "NIC.Embedded.1",
-        "Manufacturer": "Broadcom Inc. and subsidiaries",
-        "Model": "Broadcom Gigabit Ethernet BCM5720",
-        "NetworkPorts": {
-          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts"
-        },
-        "PartNumber": "0XXXXX",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "ocp:1",
-      "kind": "ocp",
-      "slot_key": "ocp:1",
-      "slot_label": "OCP 1",
-      "present": true,
-      "health": "OK",
-      "name": "Intel(R) Ethernet 10G 2P X710 OCP NIC 3.0",
-      "summary": {
-        "category": "network",
-        "manufacturer": "Intel Corporation",
-        "model": "Intel(R) Ethernet 10G 2P X710 OCP NIC 3.0",
-        "part_number": "0XXXXX",
-        "firmware": "22.5.7",
-        "port_count": 2,
-        "ports": [
-          {
-            "id": "NIC.Integrated.1-1",
-            "link_status": "Up",
-            "speed_mbps": 10000,
-            "mac": "00:00:00:00:00:00"
-          },
-          {
-            "id": "NIC.Integrated.1-2",
-            "link_status": "Up",
-            "speed_mbps": 10000,
-            "mac": "00:00:00:00:00:00"
-          }
-        ]
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1",
-        "Controllers": [
-          {
-            "ControllerCapabilities": {
-              "NetworkPortCount": 2
-            },
-            "FirmwarePackageVersion": "22.5.7"
-          }
-        ],
-        "Id": "NIC.Integrated.1",
-        "Manufacturer": "Intel Corporation",
-        "Model": "Intel(R) Ethernet 10G 2P X710 OCP NIC 3.0",
-        "NetworkPorts": {
-          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts"
-        },
-        "PartNumber": "0XXXXX",
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "1034A09B",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -946,25 +838,25 @@
             "id": "NIC.Slot.3-1",
             "link_status": "Up",
             "speed_mbps": 25000,
-            "mac": "00:00:00:00:00:00"
+            "mac": "bc:97:e1:78:8f:4b"
           },
           {
             "id": "NIC.Slot.3-2",
             "link_status": "Up",
             "speed_mbps": 25000,
-            "mac": "00:00:00:00:00:00"
+            "mac": "bc:97:e1:78:8f:4c"
           },
           {
             "id": "NIC.Slot.3-3",
             "link_status": "Down",
             "speed_mbps": 0,
-            "mac": "00:00:00:00:00:00"
+            "mac": "bc:97:e1:78:8f:4d"
           },
           {
             "id": "NIC.Slot.3-4",
             "link_status": "Down",
             "speed_mbps": 0,
-            "mac": "00:00:00:00:00:00"
+            "mac": "bc:97:e1:78:8f:4e"
           }
         ],
         "slot_type": "LowProfile",
@@ -1016,7 +908,7 @@
             "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts"
           },
           "PartNumber": "0XXXXX",
-          "SerialNumber": "REDACTED",
+          "SerialNumber": "MT6837X87020",
           "Status": {
             "Health": "OK",
             "State": "Enabled"
@@ -1108,25 +1000,25 @@
             "id": "NIC.Slot.6-1",
             "link_status": "Up",
             "speed_mbps": 25000,
-            "mac": "00:00:00:00:00:00"
+            "mac": "b8:3f:d2:21:9b:e3"
           },
           {
             "id": "NIC.Slot.6-2",
             "link_status": "Up",
             "speed_mbps": 25000,
-            "mac": "00:00:00:00:00:00"
+            "mac": "b8:3f:d2:21:9b:e4"
           },
           {
             "id": "NIC.Slot.6-3",
             "link_status": "Down",
             "speed_mbps": 0,
-            "mac": "00:00:00:00:00:00"
+            "mac": "b8:3f:d2:21:9b:e5"
           },
           {
             "id": "NIC.Slot.6-4",
             "link_status": "Down",
             "speed_mbps": 0,
-            "mac": "00:00:00:00:00:00"
+            "mac": "b8:3f:d2:21:9b:e6"
           }
         ],
         "slot_type": "LowProfile",
@@ -1178,7 +1070,7 @@
             "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts"
           },
           "PartNumber": "0XXXXX",
-          "SerialNumber": "REDACTED",
+          "SerialNumber": "MT1094X72857",
           "Status": {
             "Health": "OK",
             "State": "Enabled"
@@ -1249,6 +1141,114 @@
       }
     },
     {
+      "id": "ocp:1",
+      "kind": "ocp",
+      "slot_key": "ocp:1",
+      "slot_label": "OCP 1",
+      "present": true,
+      "health": "OK",
+      "name": "Intel(R) Ethernet 10G 2P X710 OCP NIC 3.0",
+      "summary": {
+        "category": "network",
+        "manufacturer": "Intel Corporation",
+        "model": "Intel(R) Ethernet 10G 2P X710 OCP NIC 3.0",
+        "part_number": "0XXXXX",
+        "firmware": "22.5.7",
+        "port_count": 2,
+        "ports": [
+          {
+            "id": "NIC.Integrated.1-1",
+            "link_status": "Up",
+            "speed_mbps": 10000,
+            "mac": "bc:97:e1:26:df:d7"
+          },
+          {
+            "id": "NIC.Integrated.1-2",
+            "link_status": "Up",
+            "speed_mbps": 10000,
+            "mac": "bc:97:e1:26:df:d8"
+          }
+        ]
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1",
+        "Controllers": [
+          {
+            "ControllerCapabilities": {
+              "NetworkPortCount": 2
+            },
+            "FirmwarePackageVersion": "22.5.7"
+          }
+        ],
+        "Id": "NIC.Integrated.1",
+        "Manufacturer": "Intel Corporation",
+        "Model": "Intel(R) Ethernet 10G 2P X710 OCP NIC 3.0",
+        "NetworkPorts": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts"
+        },
+        "PartNumber": "0XXXXX",
+        "SerialNumber": "MT3036X86229",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "lom:1",
+      "kind": "lom",
+      "slot_key": "lom:1",
+      "slot_label": "LOM 1",
+      "present": true,
+      "health": "OK",
+      "name": "Broadcom Gigabit Ethernet BCM5720",
+      "summary": {
+        "category": "network",
+        "manufacturer": "Broadcom Inc. and subsidiaries",
+        "model": "Broadcom Gigabit Ethernet BCM5720",
+        "part_number": "0XXXXX",
+        "firmware": "22.31.6",
+        "port_count": 2,
+        "ports": [
+          {
+            "id": "NIC.Embedded.1-1",
+            "link_status": "Up",
+            "speed_mbps": 1000,
+            "mac": "b8:3f:d2:a3:19:70"
+          },
+          {
+            "id": "NIC.Embedded.1-2",
+            "link_status": "Up",
+            "speed_mbps": 1000,
+            "mac": "b8:3f:d2:a3:19:71"
+          }
+        ]
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1",
+        "Controllers": [
+          {
+            "ControllerCapabilities": {
+              "NetworkPortCount": 2
+            },
+            "FirmwarePackageVersion": "22.31.6"
+          }
+        ],
+        "Id": "NIC.Embedded.1",
+        "Manufacturer": "Broadcom Inc. and subsidiaries",
+        "Model": "Broadcom Gigabit Ethernet BCM5720",
+        "NetworkPorts": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts"
+        },
+        "PartNumber": "0XXXXX",
+        "SerialNumber": "MT3925X23512",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
       "id": "psu:1",
       "kind": "psu",
       "slot_key": "psu:1",
@@ -1275,7 +1275,7 @@
         "PartNumber": "01CW9GA08",
         "PowerCapacityWatts": 1400,
         "PowerInputWatts": 312,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "CNBFG0047U4490",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1309,7 +1309,7 @@
         "PartNumber": "01CW9GA08",
         "PowerCapacityWatts": 1400,
         "PowerInputWatts": 0,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "CNKJL006081760",
         "Status": {
           "Health": "Warning",
           "State": "Enabled"
@@ -1581,6 +1581,318 @@
       }
     },
     {
+      "id": "bay:0",
+      "kind": "drive",
+      "slot_key": "bay:0",
+      "slot_label": "Bay 0",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7L3960HCJRAD9 960GB",
+      "summary": {
+        "capacity_gb": 960,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7L3960HCJRAD9",
+        "manufacturer": "SAMSUNG",
+        "firmware": "DG58",
+        "controller": "PERC H755 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "CapacityBytes": 960197124096,
+        "Id": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7L3960HCJRAD9",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 0,
+            "LocationType": "Slot"
+          }
+        },
+        "Protocol": "SATA",
+        "Revision": "DG58",
+        "SerialNumber": "SHKUNA0A035194",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "bay:1",
+      "kind": "drive",
+      "slot_key": "bay:1",
+      "slot_label": "Bay 1",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7L3960HCJRAD9 960GB",
+      "summary": {
+        "capacity_gb": 960,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7L3960HCJRAD9",
+        "manufacturer": "SAMSUNG",
+        "firmware": "DG58",
+        "controller": "PERC H755 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "CapacityBytes": 960197124096,
+        "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7L3960HCJRAD9",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 1,
+            "LocationType": "Slot"
+          }
+        },
+        "Protocol": "SATA",
+        "Revision": "DG58",
+        "SerialNumber": "SMXFNA0Y317228",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "bay:2",
+      "kind": "drive",
+      "slot_key": "bay:2",
+      "slot_label": "Bay 2",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7L3960HCJRAD9 960GB",
+      "summary": {
+        "capacity_gb": 960,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7L3960HCJRAD9",
+        "manufacturer": "SAMSUNG",
+        "firmware": "DG58",
+        "controller": "PERC H755 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.2:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "CapacityBytes": 960197124096,
+        "Id": "Disk.Bay.2:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7L3960HCJRAD9",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 2,
+            "LocationType": "Slot"
+          }
+        },
+        "Protocol": "SATA",
+        "Revision": "DG58",
+        "SerialNumber": "STCDNA0R952826",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "bay:3",
+      "kind": "drive",
+      "slot_key": "bay:3",
+      "slot_label": "Bay 3",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7L3960HCJRAD9 960GB",
+      "summary": {
+        "capacity_gb": 960,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7L3960HCJRAD9",
+        "manufacturer": "SAMSUNG",
+        "firmware": "DG58",
+        "controller": "PERC H755 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.3:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "CapacityBytes": 960197124096,
+        "Id": "Disk.Bay.3:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7L3960HCJRAD9",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 3,
+            "LocationType": "Slot"
+          }
+        },
+        "Protocol": "SATA",
+        "Revision": "DG58",
+        "SerialNumber": "SBEKNA0L890493",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "bay:4",
+      "kind": "drive",
+      "slot_key": "bay:4",
+      "slot_label": "Bay 4",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7L3960HCJRAD9 960GB",
+      "summary": {
+        "capacity_gb": 960,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7L3960HCJRAD9",
+        "manufacturer": "SAMSUNG",
+        "firmware": "DG58",
+        "controller": "PERC H755 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.4:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "CapacityBytes": 960197124096,
+        "Id": "Disk.Bay.4:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7L3960HCJRAD9",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 4,
+            "LocationType": "Slot"
+          }
+        },
+        "Protocol": "SATA",
+        "Revision": "DG58",
+        "SerialNumber": "SWFRNA0F276020",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "bay:5",
+      "kind": "drive",
+      "slot_key": "bay:5",
+      "slot_label": "Bay 5",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7L3960HCJRAD9 960GB",
+      "summary": {
+        "capacity_gb": 960,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7L3960HCJRAD9",
+        "manufacturer": "SAMSUNG",
+        "firmware": "DG58",
+        "controller": "PERC H755 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.5:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "CapacityBytes": 960197124096,
+        "Id": "Disk.Bay.5:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7L3960HCJRAD9",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 5,
+            "LocationType": "Slot"
+          }
+        },
+        "Protocol": "SATA",
+        "Revision": "DG58",
+        "SerialNumber": "SCVTNA0E309035",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "bay:6",
+      "kind": "drive",
+      "slot_key": "bay:6",
+      "slot_label": "Bay 6",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7L3960HCJRAD9 960GB",
+      "summary": {
+        "capacity_gb": 960,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7L3960HCJRAD9",
+        "manufacturer": "SAMSUNG",
+        "firmware": "DG58",
+        "controller": "PERC H755 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.6:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "CapacityBytes": 960197124096,
+        "Id": "Disk.Bay.6:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7L3960HCJRAD9",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 6,
+            "LocationType": "Slot"
+          }
+        },
+        "Protocol": "SATA",
+        "Revision": "DG58",
+        "SerialNumber": "SXTSNA0H831955",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "bay:7",
+      "kind": "drive",
+      "slot_key": "bay:7",
+      "slot_label": "Bay 7",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7L3960HCJRAD9 960GB",
+      "summary": {
+        "capacity_gb": 960,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7L3960HCJRAD9",
+        "manufacturer": "SAMSUNG",
+        "firmware": "DG58",
+        "controller": "PERC H755 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.7:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "CapacityBytes": 960197124096,
+        "Id": "Disk.Bay.7:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7L3960HCJRAD9",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 7,
+            "LocationType": "Slot"
+          }
+        },
+        "Protocol": "SATA",
+        "Revision": "DG58",
+        "SerialNumber": "SVXLNA0A918286",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
       "id": "storage:RAID.SL.3-1",
       "kind": "storage",
       "slot_key": null,
@@ -1633,318 +1945,6 @@
             "Model": "PERC H755 Front"
           }
         ]
-      }
-    },
-    {
-      "id": "bay:0",
-      "kind": "drive",
-      "slot_key": "bay:0",
-      "slot_label": "Bay 0",
-      "present": true,
-      "health": "OK",
-      "name": "MZ7L3960HCJRAD9 960GB",
-      "summary": {
-        "capacity_gb": 960,
-        "media_type": "SSD",
-        "protocol": "SATA",
-        "model": "MZ7L3960HCJRAD9",
-        "manufacturer": "SAMSUNG",
-        "firmware": "DG58",
-        "controller": "PERC H755 Front"
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "CapacityBytes": 960197124096,
-        "Id": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "Manufacturer": "SAMSUNG",
-        "MediaType": "SSD",
-        "Model": "MZ7L3960HCJRAD9",
-        "PhysicalLocation": {
-          "PartLocation": {
-            "LocationOrdinalValue": 0,
-            "LocationType": "Slot"
-          }
-        },
-        "Protocol": "SATA",
-        "Revision": "DG58",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "bay:1",
-      "kind": "drive",
-      "slot_key": "bay:1",
-      "slot_label": "Bay 1",
-      "present": true,
-      "health": "OK",
-      "name": "MZ7L3960HCJRAD9 960GB",
-      "summary": {
-        "capacity_gb": 960,
-        "media_type": "SSD",
-        "protocol": "SATA",
-        "model": "MZ7L3960HCJRAD9",
-        "manufacturer": "SAMSUNG",
-        "firmware": "DG58",
-        "controller": "PERC H755 Front"
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "CapacityBytes": 960197124096,
-        "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "Manufacturer": "SAMSUNG",
-        "MediaType": "SSD",
-        "Model": "MZ7L3960HCJRAD9",
-        "PhysicalLocation": {
-          "PartLocation": {
-            "LocationOrdinalValue": 1,
-            "LocationType": "Slot"
-          }
-        },
-        "Protocol": "SATA",
-        "Revision": "DG58",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "bay:2",
-      "kind": "drive",
-      "slot_key": "bay:2",
-      "slot_label": "Bay 2",
-      "present": true,
-      "health": "OK",
-      "name": "MZ7L3960HCJRAD9 960GB",
-      "summary": {
-        "capacity_gb": 960,
-        "media_type": "SSD",
-        "protocol": "SATA",
-        "model": "MZ7L3960HCJRAD9",
-        "manufacturer": "SAMSUNG",
-        "firmware": "DG58",
-        "controller": "PERC H755 Front"
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.2:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "CapacityBytes": 960197124096,
-        "Id": "Disk.Bay.2:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "Manufacturer": "SAMSUNG",
-        "MediaType": "SSD",
-        "Model": "MZ7L3960HCJRAD9",
-        "PhysicalLocation": {
-          "PartLocation": {
-            "LocationOrdinalValue": 2,
-            "LocationType": "Slot"
-          }
-        },
-        "Protocol": "SATA",
-        "Revision": "DG58",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "bay:3",
-      "kind": "drive",
-      "slot_key": "bay:3",
-      "slot_label": "Bay 3",
-      "present": true,
-      "health": "OK",
-      "name": "MZ7L3960HCJRAD9 960GB",
-      "summary": {
-        "capacity_gb": 960,
-        "media_type": "SSD",
-        "protocol": "SATA",
-        "model": "MZ7L3960HCJRAD9",
-        "manufacturer": "SAMSUNG",
-        "firmware": "DG58",
-        "controller": "PERC H755 Front"
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.3:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "CapacityBytes": 960197124096,
-        "Id": "Disk.Bay.3:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "Manufacturer": "SAMSUNG",
-        "MediaType": "SSD",
-        "Model": "MZ7L3960HCJRAD9",
-        "PhysicalLocation": {
-          "PartLocation": {
-            "LocationOrdinalValue": 3,
-            "LocationType": "Slot"
-          }
-        },
-        "Protocol": "SATA",
-        "Revision": "DG58",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "bay:4",
-      "kind": "drive",
-      "slot_key": "bay:4",
-      "slot_label": "Bay 4",
-      "present": true,
-      "health": "OK",
-      "name": "MZ7L3960HCJRAD9 960GB",
-      "summary": {
-        "capacity_gb": 960,
-        "media_type": "SSD",
-        "protocol": "SATA",
-        "model": "MZ7L3960HCJRAD9",
-        "manufacturer": "SAMSUNG",
-        "firmware": "DG58",
-        "controller": "PERC H755 Front"
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.4:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "CapacityBytes": 960197124096,
-        "Id": "Disk.Bay.4:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "Manufacturer": "SAMSUNG",
-        "MediaType": "SSD",
-        "Model": "MZ7L3960HCJRAD9",
-        "PhysicalLocation": {
-          "PartLocation": {
-            "LocationOrdinalValue": 4,
-            "LocationType": "Slot"
-          }
-        },
-        "Protocol": "SATA",
-        "Revision": "DG58",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "bay:5",
-      "kind": "drive",
-      "slot_key": "bay:5",
-      "slot_label": "Bay 5",
-      "present": true,
-      "health": "OK",
-      "name": "MZ7L3960HCJRAD9 960GB",
-      "summary": {
-        "capacity_gb": 960,
-        "media_type": "SSD",
-        "protocol": "SATA",
-        "model": "MZ7L3960HCJRAD9",
-        "manufacturer": "SAMSUNG",
-        "firmware": "DG58",
-        "controller": "PERC H755 Front"
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.5:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "CapacityBytes": 960197124096,
-        "Id": "Disk.Bay.5:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "Manufacturer": "SAMSUNG",
-        "MediaType": "SSD",
-        "Model": "MZ7L3960HCJRAD9",
-        "PhysicalLocation": {
-          "PartLocation": {
-            "LocationOrdinalValue": 5,
-            "LocationType": "Slot"
-          }
-        },
-        "Protocol": "SATA",
-        "Revision": "DG58",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "bay:6",
-      "kind": "drive",
-      "slot_key": "bay:6",
-      "slot_label": "Bay 6",
-      "present": true,
-      "health": "OK",
-      "name": "MZ7L3960HCJRAD9 960GB",
-      "summary": {
-        "capacity_gb": 960,
-        "media_type": "SSD",
-        "protocol": "SATA",
-        "model": "MZ7L3960HCJRAD9",
-        "manufacturer": "SAMSUNG",
-        "firmware": "DG58",
-        "controller": "PERC H755 Front"
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.6:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "CapacityBytes": 960197124096,
-        "Id": "Disk.Bay.6:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "Manufacturer": "SAMSUNG",
-        "MediaType": "SSD",
-        "Model": "MZ7L3960HCJRAD9",
-        "PhysicalLocation": {
-          "PartLocation": {
-            "LocationOrdinalValue": 6,
-            "LocationType": "Slot"
-          }
-        },
-        "Protocol": "SATA",
-        "Revision": "DG58",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
-      }
-    },
-    {
-      "id": "bay:7",
-      "kind": "drive",
-      "slot_key": "bay:7",
-      "slot_label": "Bay 7",
-      "present": true,
-      "health": "OK",
-      "name": "MZ7L3960HCJRAD9 960GB",
-      "summary": {
-        "capacity_gb": 960,
-        "media_type": "SSD",
-        "protocol": "SATA",
-        "model": "MZ7L3960HCJRAD9",
-        "manufacturer": "SAMSUNG",
-        "firmware": "DG58",
-        "controller": "PERC H755 Front"
-      },
-      "raw": {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.7:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "CapacityBytes": 960197124096,
-        "Id": "Disk.Bay.7:Enclosure.Internal.0-1:RAID.SL.3-1",
-        "Manufacturer": "SAMSUNG",
-        "MediaType": "SSD",
-        "Model": "MZ7L3960HCJRAD9",
-        "PhysicalLocation": {
-          "PartLocation": {
-            "LocationOrdinalValue": 7,
-            "LocationType": "Slot"
-          }
-        },
-        "Protocol": "SATA",
-        "Revision": "DG58",
-        "SerialNumber": "REDACTED",
-        "Status": {
-          "Health": "OK",
-          "State": "Enabled"
-        }
       }
     }
   ]

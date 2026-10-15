@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "server_id": "r650-captured",
-  "captured_at": "2026-10-15T12:46:40+00:00",
+  "captured_at": "2026-10-15T12:57:01+00:00",
   "system": {
     "vendor": "dell",
     "model": "PowerEdge R650",
-    "serial": "REDACTED",
+    "serial": "CNVAQJO343QSZJ",
     "health": "OK",
     "power_state": "On",
     "bios": "1.14.1",
@@ -313,7 +313,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "F783FFCF",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -390,7 +390,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "26CBC10F",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -467,7 +467,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "29534A02",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -544,7 +544,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "8EB5A17F",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -621,7 +621,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "15C6CCDD",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -698,7 +698,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "3C642171",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -775,7 +775,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "8CDCDE24",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -852,7 +852,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "F3B4D046",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -929,7 +929,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "7963D158",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1006,7 +1006,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "C0387647",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1083,7 +1083,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "57A76683",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1160,7 +1160,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "CB729B6C",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1237,7 +1237,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "51FFD9DE",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1314,7 +1314,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "5F98DEB5",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1391,7 +1391,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "A72CA647",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1468,7 +1468,7 @@
         "OperatingSpeedMhz": 2666,
         "PartNumber": "18ASF2G72PDZ-3G2J3",
         "RankCount": 2,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "211CB147",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -1534,13 +1534,13 @@
             "id": "NIC.Slot.2-1",
             "link_status": "LinkUp",
             "speed_mbps": 100000,
-            "mac": "00:00:00:00:00:00"
+            "mac": "00:62:0b:1e:52:94"
           },
           {
             "id": "NIC.Slot.2-2",
             "link_status": "LinkDown",
             "speed_mbps": 0,
-            "mac": "00:00:00:00:00:00"
+            "mac": "00:62:0b:1e:52:95"
           }
         ],
         "slot_type": "FullLength",
@@ -1569,7 +1569,7 @@
         },
         "PartNumber": "08P2T2",
         "SKU": null,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "1097NEQSB7YD",
         "Slot": {
           "Lanes": 16,
           "Location": {
@@ -1671,7 +1671,7 @@
           "Ports": {
             "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.2/Ports"
           },
-          "SerialNumber": "REDACTED",
+          "SerialNumber": "MT4942X44613",
           "Status": {
             "Health": "OK",
             "HealthRollup": "OK",
@@ -1700,13 +1700,13 @@
             "id": "NIC.Integrated.1-1",
             "link_status": "LinkUp",
             "speed_mbps": 25000,
-            "mac": "00:00:00:00:00:00"
+            "mac": "40:a6:b7:76:e2:83"
           },
           {
             "id": "NIC.Integrated.1-2",
             "link_status": "LinkDown",
             "speed_mbps": 0,
-            "mac": "00:00:00:00:00:00"
+            "mac": "40:a6:b7:76:e2:84"
           }
         ]
       },
@@ -1795,7 +1795,7 @@
         "Ports": {
           "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/Ports"
         },
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "MT2027X79387",
         "Status": {
           "Health": "OK",
           "HealthRollup": "OK",
@@ -1821,13 +1821,13 @@
             "id": "NIC.Embedded.1-1",
             "link_status": "LinkDown",
             "speed_mbps": 0,
-            "mac": "00:00:00:00:00:00"
+            "mac": "b4:96:91:21:ce:05"
           },
           {
             "id": "NIC.Embedded.2-1",
             "link_status": "LinkDown",
             "speed_mbps": 0,
-            "mac": "00:00:00:00:00:00"
+            "mac": "00:62:0b:74:29:f5"
           }
         ]
       },
@@ -2043,8 +2043,8 @@
             "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
           }
         ],
-        "SerialNumber": "REDACTED",
-        "SparePartNumber": "REDACTED",
+        "SerialNumber": "CNVPU0033B7357",
+        "SparePartNumber": "0CCCBS",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -2174,8 +2174,8 @@
             "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
           }
         ],
-        "SerialNumber": "REDACTED",
-        "SparePartNumber": "REDACTED",
+        "SerialNumber": "CNOIN007315837",
+        "SparePartNumber": "0KQIJG",
         "Status": {
           "Health": "OK",
           "State": "Enabled"
@@ -2884,7 +2884,7 @@
         "Id": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
         "Identifiers": [
           {
-            "DurableName": "REDACTED",
+            "DurableName": "5002538F934EA7DA",
             "DurableNameFormat": "NAA"
           }
         ],
@@ -2930,7 +2930,7 @@
               "OperationPercentCompletePercent": 0,
               "PCIeCapableLinkWidth": "None",
               "PCIeNegotiatedLinkWidth": "None",
-              "PPID": "REDACTED",
+              "PPID": "TW-021YCD-7N9WO-4G1-35HW-A06",
               "PowerStatus": "On",
               "PredictiveFailureState": "SmartAlertAbsent",
               "ProductID": "MTFDDAK480TDT",
@@ -2954,7 +2954,7 @@
           }
         },
         "Operations": [],
-        "PartNumber": "XX-002M3C-00000-000-0000-A00",
+        "PartNumber": "TH-002M3C-QXBSU-42C-UFQ4-A00",
         "PhysicalLocation": {
           "PartLocation": {
             "LocationOrdinalValue": 0,
@@ -2965,7 +2965,7 @@
         "Protocol": "SATA",
         "Revision": "D3DJ004",
         "RotationSpeedRPM": null,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "SXRFNA0E163547",
         "Status": {
           "Health": "OK",
           "HealthRollup": "OK",
@@ -3004,7 +3004,7 @@
         "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
         "Identifiers": [
           {
-            "DurableName": "REDACTED",
+            "DurableName": "50025383A08B538C",
             "DurableNameFormat": "NAA"
           }
         ],
@@ -3050,7 +3050,7 @@
               "OperationPercentCompletePercent": 0,
               "PCIeCapableLinkWidth": "None",
               "PCIeNegotiatedLinkWidth": "None",
-              "PPID": "REDACTED",
+              "PPID": "CN-0E117W-YQGSL-8F4-UMJ9-A04",
               "PowerStatus": "On",
               "PredictiveFailureState": "SmartAlertAbsent",
               "ProductID": "MTFDDAK480TDT",
@@ -3074,7 +3074,7 @@
           }
         },
         "Operations": [],
-        "PartNumber": "XX-002M3C-00000-000-0000-A00",
+        "PartNumber": "MX-002M3C-M5AJO-2RA-0ZXM-A00",
         "PhysicalLocation": {
           "PartLocation": {
             "LocationOrdinalValue": 1,
@@ -3085,7 +3085,7 @@
         "Protocol": "SATA",
         "Revision": "D3DJ004",
         "RotationSpeedRPM": null,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "SOELNA0J053245",
         "Status": {
           "Health": "OK",
           "HealthRollup": "OK",
@@ -3227,7 +3227,7 @@
           }
         },
         "Operations": [],
-        "PartNumber": "XX-0C9X5T-00000-000-0000-A00",
+        "PartNumber": "CN-0C9X5T-LMUC5-2XG-I0QK-A00",
         "PhysicalLocation": {
           "PartLocation": {
             "LocationOrdinalValue": 7,
@@ -3238,7 +3238,7 @@
         "Protocol": "PCIe",
         "Revision": "1.1.5",
         "RotationSpeedRPM": null,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "SAAANA0R763580",
         "Status": {
           "Health": "OK",
           "HealthRollup": "OK",
@@ -3380,7 +3380,7 @@
           }
         },
         "Operations": [],
-        "PartNumber": "XX-0C9X5T-00000-000-0000-A00",
+        "PartNumber": "KR-0C9X5T-QR06Q-93Q-JLGX-A00",
         "PhysicalLocation": {
           "PartLocation": {
             "LocationOrdinalValue": 8,
@@ -3391,7 +3391,7 @@
         "Protocol": "PCIe",
         "Revision": "1.1.5",
         "RotationSpeedRPM": null,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "SUEANA0M828483",
         "Status": {
           "Health": "OK",
           "HealthRollup": "OK",
@@ -3533,7 +3533,7 @@
           }
         },
         "Operations": [],
-        "PartNumber": "XX-0C9X5T-00000-000-0000-A00",
+        "PartNumber": "TW-0C9X5T-DCFWU-3C4-R9NE-A00",
         "PhysicalLocation": {
           "PartLocation": {
             "LocationOrdinalValue": 9,
@@ -3544,7 +3544,7 @@
         "Protocol": "PCIe",
         "Revision": "1.1.5",
         "RotationSpeedRPM": null,
-        "SerialNumber": "REDACTED",
+        "SerialNumber": "SOTYNA0T268690",
         "Status": {
           "Health": "OK",
           "HealthRollup": "OK",
@@ -3620,7 +3620,7 @@
         "Id": "RAID.SL.3-1",
         "Identifiers": [
           {
-            "DurableName": "REDACTED",
+            "DurableName": "54CD98F0534FF62A",
             "DurableNameFormat": "NAA"
           }
         ],
@@ -3704,7 +3704,7 @@
             "FirmwareVersion": "52.16.1-4074",
             "Identifiers": [
               {
-                "DurableName": "REDACTED",
+                "DurableName": "54CD98F0024C8804",
                 "DurableNameFormat": "NAA"
               }
             ],
