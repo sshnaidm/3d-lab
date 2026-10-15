@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "react", "oxc", "vitest"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error"
+  },
+  "rules": {
+    // React 17+ JSX transform: no `React` import needed.
+    "react/react-in-jsx-scope": "off",
+    // React Three Fiber mutates three.js objects (textures, renderer flags) from effects by design.
+    "react/immutability": "off",
+    "react/rules-of-hooks": "error",
+    "react/exhaustive-deps": "error",
+    // window.__perf is the opt-in profiling hook (?perf).
+    "no-underscore-dangle": ["error", { "allow": ["__perf"] }],
+    "vitest/expect-expect": ["error", { "assertFunctionNames": ["expect", "checkGeometry"] }]
+  },
+  "ignorePatterns": ["dist", "node_modules"]
+}
