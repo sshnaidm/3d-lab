@@ -4,8 +4,6 @@
 
 https://github.com/user-attachments/assets/68e3357e-ec96-4cfa-870a-fbcadc86a3af
 
-![A PowerEdge R750 in 3D Lab: the selected 100GbE NIC shows its firmware, ports, link state and the switch port each port is cabled to](docs/screenshots/hero.webp)
-
 3D Lab reads each server's hardware from its BMC over Redfish and draws it in 3D: CPUs, DIMMs, PCIe/OCP/LOM
 NICs, PSUs, fans, drives and empty slots, all colour-coded by health. Click a part for its model, firmware,
 serial and link state. It keeps a history of hardware changes and can label every NIC port with the switch
@@ -33,6 +31,11 @@ server.
 ## Screenshots
 
 <table>
+  <tr>
+    <td colspan="2"><a href="docs/screenshots/hero.webp"><img src="docs/screenshots/hero.webp" alt="Part details and wiring"></a><br>
+      <b>Part details and wiring.</b> The selected 100GbE NIC shows its firmware, ports and link state, and the
+      switch port and VLAN each port is cabled to. The cabled port without link is flagged.</td>
+  </tr>
   <tr>
     <td width="50%"><a href="docs/screenshots/fleet.webp"><img src="docs/screenshots/fleet.webp" alt="Fleet page"></a><br>
       <b>Fleet page.</b> Hosts grouped by lab and rack, with health, links and age. The chips filter by state,
