@@ -13,3 +13,6 @@ redfish_secrets.yaml
 web/node_modules/
 web/dist/
 web/tsconfig.tsbuildinfo
+.pytest_cache/
+# A global gitignore often has "parts/" (Python template): the 3D part models must never be skipped.
+!web/src/parts/
