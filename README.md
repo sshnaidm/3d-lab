@@ -2,6 +2,8 @@
 
 **See inside every server in your lab without opening a single chassis.**
 
+![A PowerEdge R750 in 3D Lab: the selected 100GbE NIC shows its firmware, ports, link state and the switch port each port is cabled to](docs/screenshots/hero.webp)
+
 3D Lab reads each server's hardware from its BMC over Redfish and draws it in 3D: CPUs, DIMMs, PCIe/OCP/LOM
 NICs, PSUs, fans, drives and empty slots, all colour-coded by health. Click a part for its model, firmware,
 serial and link state. It keeps a history of hardware changes and can label every NIC port with the switch
@@ -25,6 +27,38 @@ server.
   - **Dell PowerEdge R640, R650, R660, R740, R750, R760 and R7625** have chassis layouts, so their parts
     appear in their real positions.
   - **Everything else** shows every part the BMC reports in a generic arrangement.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="50%"><a href="docs/screenshots/fleet.webp"><img src="docs/screenshots/fleet.webp" alt="Fleet page"></a><br>
+      <b>Fleet page.</b> Hosts grouped by lab and rack, with health, links and age. The chips filter by state,
+      lab, rack, model, vendor, health and tag.</td>
+    <td width="50%"><a href="docs/screenshots/search.webp"><img src="docs/screenshots/search.webp" alt="Fleet search"></a><br>
+      <b>Search across the fleet.</b> <code>ConnectX-6</code> finds every host with that card, and shows the matching part.</td>
+  </tr>
+  <tr>
+    <td><a href="docs/screenshots/health.webp"><img src="docs/screenshots/health.webp" alt="Colour by health"></a><br>
+      <b>By health, exploded.</b> A failed DIMM (red) and a degraded PSU (amber) stand out at a glance.</td>
+    <td><a href="docs/screenshots/exploded.webp"><img src="docs/screenshots/exploded.webp" alt="Colour by type"></a><br>
+      <b>By type, exploded.</b> CPUs, memory, drives, NICs and PSUs lifted out of the chassis.</td>
+  </tr>
+  <tr>
+    <td><a href="docs/screenshots/diff.webp"><img src="docs/screenshots/diff.webp" alt="Hardware history diff"></a><br>
+      <b>Hardware history.</b> Compared with a month ago: four DIMMs added (green) and a NIC firmware update
+      (orange).</td>
+    <td><a href="docs/screenshots/rear.webp"><img src="docs/screenshots/rear.webp" alt="Rear view with cables"></a><br>
+      <b>Rear view.</b> Fans, risers and the cabled NIC ports.</td>
+  </tr>
+  <tr>
+    <td><a href="docs/screenshots/front.webp"><img src="docs/screenshots/front.webp" alt="Front view with a warning drive"></a><br>
+      <b>Front view.</b> The drive bays of an R650; bay 1 reports a warning.</td>
+    <td><a href="docs/screenshots/generic.webp"><img src="docs/screenshots/generic.webp" alt="Generic layout"></a><br>
+      <b>Generic layout.</b> A Supermicro server without a dedicated layout still shows every part it
+      reports.</td>
+  </tr>
+</table>
 
 ## Try it in a minute (no BMCs needed)
 
