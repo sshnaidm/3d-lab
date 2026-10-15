@@ -1,0 +1,20 @@
+{
+  "servers": [
+    {
+      "id": "r650-captured",
+      "model": "PowerEdge R650"
+    },
+    {
+      "id": "r750-captured",
+      "model": "PowerEdge R750"
+    },
+    {
+      "id": "sample-r750",
+      "model": "PowerEdge R750"
+    },
+    {
+      "id": "sample-x11",
+      "model": "Super Server"
+    }
+  ]
+}

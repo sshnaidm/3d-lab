@@ -1,0 +1,18 @@
+# podman compose up -d   (or docker compose)
+# Put config.yaml (optional), redfish_servers.yaml and redfish_secrets.yaml into ./config (see examples/),
+# and VIEWER_API_TOKEN=<long random string> into .env.
+services:
+  3d-lab:
+    build: .
+    image: 3d-lab
+    ports:
+      - "8080:8080"
+    environment:
+      VIEWER_API_TOKEN: ${VIEWER_API_TOKEN:?set VIEWER_API_TOKEN in .env}
+    volumes:
+      - ./config:/config:ro,Z
+      - lab3d-data:/data:Z
+    restart: unless-stopped
+
+volumes:
+  lab3d-data:

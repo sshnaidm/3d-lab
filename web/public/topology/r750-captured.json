@@ -1,0 +1,3298 @@
+{
+  "schema_version": 1,
+  "server_id": "r750-captured",
+  "captured_at": "2026-10-15T12:46:39+00:00",
+  "system": {
+    "vendor": "dell",
+    "model": "PowerEdge R750",
+    "serial": "REDACTED",
+    "health": "OK",
+    "power_state": "On",
+    "bios": "1.3.8",
+    "bmc": "7.10.70.00"
+  },
+  "chassis": {
+    "model": "PowerEdge R750",
+    "u_height": 2
+  },
+  "components": [
+    {
+      "id": "cpu:1",
+      "kind": "cpu",
+      "slot_key": "cpu:1",
+      "slot_label": "CPU.Socket.1",
+      "present": true,
+      "health": "OK",
+      "name": "Intel(R) Xeon(R) Gold 6338N CPU @ 2.20GHz",
+      "summary": {
+        "model": "Intel(R) Xeon(R) Gold 6338N CPU @ 2.20GHz",
+        "manufacturer": "Intel",
+        "cores": 32,
+        "threads": 64,
+        "max_speed_mhz": 4000,
+        "architecture": "x86-64"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1",
+        "Description": "Represents the properties of a Processor attached to this System",
+        "Enabled": true,
+        "EnvironmentMetrics": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1/EnvironmentMetrics"
+        },
+        "Id": "CPU.Socket.1",
+        "InstructionSet": "x86-64",
+        "Manufacturer": "Intel",
+        "MaxSpeedMHz": 4000,
+        "MemorySummary": {
+          "TotalCacheSizeMiB": 91,
+          "TotalMemorySizeMiB": 131072
+        },
+        "Model": "Intel(R) Xeon(R) Gold 6338N CPU @ 2.20GHz",
+        "Name": "CPU 1",
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellProcessor": {
+              "@odata.context": "/redfish/v1/$metadata#DellProcessor.DellProcessor",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1/Oem/Dell/DellProcessors/CPU.Socket.1",
+              "@odata.type": "#DellProcessor.v1_2_0.DellProcessor",
+              "CPUFamily": "Intel(R)Xeon(TM)",
+              "CPUStatus": "CPUEnabled",
+              "Cache1Associativity": "12-WaySet-Associative",
+              "Cache1ErrorMethodology": "Parity",
+              "Cache1InstalledSizeKB": 2560,
+              "Cache1Level": "L1",
+              "Cache1Location": "Internal",
+              "Cache1PrimaryStatus": "OK",
+              "Cache1SRAMType": "Unknown",
+              "Cache1SizeKB": 2560,
+              "Cache1Type": "Unified",
+              "Cache1WritePolicy": "WriteBack",
+              "Cache2Associativity": "20-WaySet-Associative",
+              "Cache2ErrorMethodology": "Single-bitECC",
+              "Cache2InstalledSizeKB": 40960,
+              "Cache2Level": "L2",
+              "Cache2Location": "Internal",
+              "Cache2PrimaryStatus": "OK",
+              "Cache2SRAMType": "Unknown",
+              "Cache2SizeKB": 40960,
+              "Cache2Type": "Unified",
+              "Cache2WritePolicy": "WriteBack",
+              "Cache3Associativity": "12-WaySet-Associative",
+              "Cache3ErrorMethodology": "Single-bitECC",
+              "Cache3InstalledSizeKB": 49152,
+              "Cache3Level": "L3",
+              "Cache3Location": "Internal",
+              "Cache3PrimaryStatus": "OK",
+              "Cache3SRAMType": "Unknown",
+              "Cache3SizeKB": 49152,
+              "Cache3Type": "Unified",
+              "Cache3WritePolicy": "WriteBack",
+              "CurrentClockSpeedMhz": 2200,
+              "ExecuteDisabledCapable": "Yes",
+              "ExecuteDisabledEnabled": "Yes",
+              "ExternalBusClockSpeedMhz": 11200,
+              "HyperThreadingCapable": "Yes",
+              "HyperThreadingEnabled": "Yes",
+              "Id": "CPU.Socket.1",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2025-07-09T03:51:11+00:00",
+              "Name": "DellProcessor",
+              "TurboModeCapable": "Yes",
+              "TurboModeEnabled": "Yes",
+              "VirtualizationTechnologyCapable": "Yes",
+              "VirtualizationTechnologyEnabled": "Yes",
+              "Volts": "1.6"
+            }
+          }
+        },
+        "OperatingSpeedMHz": 2200,
+        "ProcessorArchitecture": "x86",
+        "ProcessorId": {
+          "EffectiveFamily": "6",
+          "EffectiveModel": "106",
+          "IdentificationRegisters": "0x000606A6",
+          "MicrocodeInfo": "0xD0002E0",
+          "ProtectedIdentificationNumber": "33BB1CE8B3F496D4",
+          "Step": "6",
+          "VendorId": "GenuineIntel"
+        },
+        "ProcessorType": "CPU",
+        "Socket": "CPU.Socket.1",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "TotalCores": 32,
+        "TotalEnabledCores": 32,
+        "TotalThreads": 64,
+        "TurboState": "Enabled",
+        "Version": "Model 106 Stepping 6"
+      }
+    },
+    {
+      "id": "cpu:2",
+      "kind": "cpu",
+      "slot_key": "cpu:2",
+      "slot_label": "CPU.Socket.2",
+      "present": true,
+      "health": "OK",
+      "name": "Intel(R) Xeon(R) Gold 6338N CPU @ 2.20GHz",
+      "summary": {
+        "model": "Intel(R) Xeon(R) Gold 6338N CPU @ 2.20GHz",
+        "manufacturer": "Intel",
+        "cores": 32,
+        "threads": 64,
+        "max_speed_mhz": 4000,
+        "architecture": "x86-64"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2",
+        "Description": "Represents the properties of a Processor attached to this System",
+        "Enabled": true,
+        "EnvironmentMetrics": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2/EnvironmentMetrics"
+        },
+        "Id": "CPU.Socket.2",
+        "InstructionSet": "x86-64",
+        "Manufacturer": "Intel",
+        "MaxSpeedMHz": 4000,
+        "MemorySummary": {
+          "TotalCacheSizeMiB": 91,
+          "TotalMemorySizeMiB": 131072
+        },
+        "Model": "Intel(R) Xeon(R) Gold 6338N CPU @ 2.20GHz",
+        "Name": "CPU 2",
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellProcessor": {
+              "@odata.context": "/redfish/v1/$metadata#DellProcessor.DellProcessor",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2/Oem/Dell/DellProcessors/CPU.Socket.2",
+              "@odata.type": "#DellProcessor.v1_2_0.DellProcessor",
+              "CPUFamily": "Intel(R)Xeon(TM)",
+              "CPUStatus": "CPUEnabled",
+              "Cache1Associativity": "12-WaySet-Associative",
+              "Cache1ErrorMethodology": "Parity",
+              "Cache1InstalledSizeKB": 2560,
+              "Cache1Level": "L1",
+              "Cache1Location": "Internal",
+              "Cache1PrimaryStatus": "OK",
+              "Cache1SRAMType": "Unknown",
+              "Cache1SizeKB": 2560,
+              "Cache1Type": "Unified",
+              "Cache1WritePolicy": "WriteBack",
+              "Cache2Associativity": "20-WaySet-Associative",
+              "Cache2ErrorMethodology": "Single-bitECC",
+              "Cache2InstalledSizeKB": 40960,
+              "Cache2Level": "L2",
+              "Cache2Location": "Internal",
+              "Cache2PrimaryStatus": "OK",
+              "Cache2SRAMType": "Unknown",
+              "Cache2SizeKB": 40960,
+              "Cache2Type": "Unified",
+              "Cache2WritePolicy": "WriteBack",
+              "Cache3Associativity": "12-WaySet-Associative",
+              "Cache3ErrorMethodology": "Single-bitECC",
+              "Cache3InstalledSizeKB": 49152,
+              "Cache3Level": "L3",
+              "Cache3Location": "Internal",
+              "Cache3PrimaryStatus": "OK",
+              "Cache3SRAMType": "Unknown",
+              "Cache3SizeKB": 49152,
+              "Cache3Type": "Unified",
+              "Cache3WritePolicy": "WriteBack",
+              "CurrentClockSpeedMhz": 2200,
+              "ExecuteDisabledCapable": "Yes",
+              "ExecuteDisabledEnabled": "Yes",
+              "ExternalBusClockSpeedMhz": 11200,
+              "HyperThreadingCapable": "Yes",
+              "HyperThreadingEnabled": "Yes",
+              "Id": "CPU.Socket.2",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2025-07-09T03:51:11+00:00",
+              "Name": "DellProcessor",
+              "TurboModeCapable": "Yes",
+              "TurboModeEnabled": "Yes",
+              "VirtualizationTechnologyCapable": "Yes",
+              "VirtualizationTechnologyEnabled": "Yes",
+              "Volts": "1.6"
+            }
+          }
+        },
+        "OperatingSpeedMHz": 2200,
+        "ProcessorArchitecture": "x86",
+        "ProcessorId": {
+          "EffectiveFamily": "6",
+          "EffectiveModel": "106",
+          "IdentificationRegisters": "0x000606A6",
+          "MicrocodeInfo": "0xD0002E0",
+          "ProtectedIdentificationNumber": "33BA5DE8323F6396",
+          "Step": "6",
+          "VendorId": "GenuineIntel"
+        },
+        "ProcessorType": "CPU",
+        "Socket": "CPU.Socket.2",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "TotalCores": 32,
+        "TotalEnabledCores": 32,
+        "TotalThreads": 64,
+        "TurboState": "Enabled",
+        "Version": "Model 106 Stepping 6"
+      }
+    },
+    {
+      "id": "dimm:A1",
+      "kind": "dimm",
+      "slot_key": "dimm:A1",
+      "slot_label": "DIMM A1",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM A1",
+        "DeviceLocator": "DIMM A1",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.A1",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM A1",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/Oem/Dell/DellMemory/DIMM.Socket.A1",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "A",
+              "Id": "DIMM.Socket.A1",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:A2",
+      "kind": "dimm",
+      "slot_key": "dimm:A2",
+      "slot_label": "DIMM A2",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A2",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM A2",
+        "DeviceLocator": "DIMM A2",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.A2",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM A2",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A2/Oem/Dell/DellMemory/DIMM.Socket.A2",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "A",
+              "Id": "DIMM.Socket.A2",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:A3",
+      "kind": "dimm",
+      "slot_key": "dimm:A3",
+      "slot_label": "DIMM A3",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A3",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM A3",
+        "DeviceLocator": "DIMM A3",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.A3",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM A3",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A3/Oem/Dell/DellMemory/DIMM.Socket.A3",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "A",
+              "Id": "DIMM.Socket.A3",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:A4",
+      "kind": "dimm",
+      "slot_key": "dimm:A4",
+      "slot_label": "DIMM A4",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A4",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM A4",
+        "DeviceLocator": "DIMM A4",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.A4",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM A4",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A4/Oem/Dell/DellMemory/DIMM.Socket.A4",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "A",
+              "Id": "DIMM.Socket.A4",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:A5",
+      "kind": "dimm",
+      "slot_key": "dimm:A5",
+      "slot_label": "DIMM A5",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A5",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM A5",
+        "DeviceLocator": "DIMM A5",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.A5",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM A5",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A5/Oem/Dell/DellMemory/DIMM.Socket.A5",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "A",
+              "Id": "DIMM.Socket.A5",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:A6",
+      "kind": "dimm",
+      "slot_key": "dimm:A6",
+      "slot_label": "DIMM A6",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A6",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM A6",
+        "DeviceLocator": "DIMM A6",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.A6",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM A6",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A6/Oem/Dell/DellMemory/DIMM.Socket.A6",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "A",
+              "Id": "DIMM.Socket.A6",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:A7",
+      "kind": "dimm",
+      "slot_key": "dimm:A7",
+      "slot_label": "DIMM A7",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A7",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM A7",
+        "DeviceLocator": "DIMM A7",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.A7",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM A7",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A7/Oem/Dell/DellMemory/DIMM.Socket.A7",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "A",
+              "Id": "DIMM.Socket.A7",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:A8",
+      "kind": "dimm",
+      "slot_key": "dimm:A8",
+      "slot_label": "DIMM A8",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM A8",
+        "DeviceLocator": "DIMM A8",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.A8",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM A8",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8/Oem/Dell/DellMemory/DIMM.Socket.A8",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "A",
+              "Id": "DIMM.Socket.A8",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:B1",
+      "kind": "dimm",
+      "slot_key": "dimm:B1",
+      "slot_label": "DIMM B1",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B1",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM B1",
+        "DeviceLocator": "DIMM B1",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.B1",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM B1",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B1/Oem/Dell/DellMemory/DIMM.Socket.B1",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "B",
+              "Id": "DIMM.Socket.B1",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:B2",
+      "kind": "dimm",
+      "slot_key": "dimm:B2",
+      "slot_label": "DIMM B2",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM B2",
+        "DeviceLocator": "DIMM B2",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.B2",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM B2",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2/Oem/Dell/DellMemory/DIMM.Socket.B2",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "B",
+              "Id": "DIMM.Socket.B2",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:B3",
+      "kind": "dimm",
+      "slot_key": "dimm:B3",
+      "slot_label": "DIMM B3",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B3",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM B3",
+        "DeviceLocator": "DIMM B3",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.B3",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM B3",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B3/Oem/Dell/DellMemory/DIMM.Socket.B3",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "B",
+              "Id": "DIMM.Socket.B3",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:B4",
+      "kind": "dimm",
+      "slot_key": "dimm:B4",
+      "slot_label": "DIMM B4",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B4",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM B4",
+        "DeviceLocator": "DIMM B4",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.B4",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM B4",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B4/Oem/Dell/DellMemory/DIMM.Socket.B4",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "B",
+              "Id": "DIMM.Socket.B4",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:B5",
+      "kind": "dimm",
+      "slot_key": "dimm:B5",
+      "slot_label": "DIMM B5",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B5",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM B5",
+        "DeviceLocator": "DIMM B5",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.B5",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM B5",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B5/Oem/Dell/DellMemory/DIMM.Socket.B5",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "B",
+              "Id": "DIMM.Socket.B5",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:B6",
+      "kind": "dimm",
+      "slot_key": "dimm:B6",
+      "slot_label": "DIMM B6",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B6",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM B6",
+        "DeviceLocator": "DIMM B6",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.B6",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM B6",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B6/Oem/Dell/DellMemory/DIMM.Socket.B6",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "B",
+              "Id": "DIMM.Socket.B6",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:B7",
+      "kind": "dimm",
+      "slot_key": "dimm:B7",
+      "slot_label": "DIMM B7",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM B7",
+        "DeviceLocator": "DIMM B7",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.B7",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM B7",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7/Oem/Dell/DellMemory/DIMM.Socket.B7",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "B",
+              "Id": "DIMM.Socket.B7",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "dimm:B8",
+      "kind": "dimm",
+      "slot_key": "dimm:B8",
+      "slot_label": "DIMM B8",
+      "present": true,
+      "health": "OK",
+      "name": "Micron Technology 16GB DDR4-2666",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2666,
+        "type": "DDR4",
+        "manufacturer": "Micron Technology",
+        "part_number": "18ASF2G72PDZ-3G2E1",
+        "rank_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B8",
+        "AllowedSpeedsMHz": [
+          3200
+        ],
+        "BaseModuleType": "RDIMM",
+        "BusWidthBits": 72,
+        "CacheSizeMiB": 0,
+        "CapacityMiB": 16384,
+        "DataWidthBits": 64,
+        "Description": "DIMM B8",
+        "DeviceLocator": "DIMM B8",
+        "Enabled": true,
+        "ErrorCorrection": "MultiBitECC",
+        "FirmwareRevision": null,
+        "Id": "DIMM.Socket.B8",
+        "LogicalSizeMiB": 0,
+        "Manufacturer": "Micron Technology",
+        "MaxTDPMilliWatts": [],
+        "MemoryDeviceType": "DDR4",
+        "MemorySubsystemControllerManufacturerID": null,
+        "MemorySubsystemControllerProductID": null,
+        "MemoryType": "DRAM",
+        "ModuleManufacturerID": "0x2c80",
+        "ModuleProductID": null,
+        "Name": "DIMM B8",
+        "NonVolatileSizeMiB": 0,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellMemory": {
+              "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B8/Oem/Dell/DellMemory/DIMM.Socket.B8",
+              "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+              "BankLabel": "B",
+              "Id": "DIMM.Socket.B8",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2021-10-05T19:05:39+00:00",
+              "ManufactureDate": "Mon Aug 16 07:00:00 2021 UTC",
+              "MemoryTechnology": "DRAM",
+              "Model": "DDR4 DIMM",
+              "Name": "DellMemory",
+              "RemainingRatedWriteEndurancePercent": null,
+              "SystemEraseCapability": "NotSupported"
+            }
+          }
+        },
+        "OperatingMemoryModes": [
+          "Volatile"
+        ],
+        "OperatingSpeedMhz": 2666,
+        "PartNumber": "18ASF2G72PDZ-3G2E1",
+        "RankCount": 2,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "VolatileSizeMiB": 16384
+      }
+    },
+    {
+      "id": "pcie:2",
+      "kind": "pcie",
+      "slot_key": "pcie:2",
+      "slot_label": "Slot 2",
+      "present": false,
+      "health": null,
+      "name": "Empty Slot 2",
+      "summary": {
+        "slot_type": "FullLength",
+        "slot_pcie_gen": "Gen4",
+        "slot_lanes": 16,
+        "form": "full_height"
+      },
+      "raw": {
+        "HotPluggable": false,
+        "Lanes": 16,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 2,
+            "LocationType": "Slot"
+          }
+        },
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+            "SlotKey": "PCIe.Slot.2"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "pcie:3",
+      "kind": "pcie",
+      "slot_key": "pcie:3",
+      "slot_label": "Slot 3",
+      "present": false,
+      "health": null,
+      "name": "Empty Slot 3",
+      "summary": {
+        "slot_type": "FullLength",
+        "slot_pcie_gen": "Gen4",
+        "slot_lanes": 16,
+        "form": "full_height"
+      },
+      "raw": {
+        "HotPluggable": false,
+        "Lanes": 16,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 3,
+            "LocationType": "Slot"
+          }
+        },
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+            "SlotKey": "PCIe.Slot.3"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "pcie:4",
+      "kind": "pcie",
+      "slot_key": "pcie:4",
+      "slot_label": "Slot 4",
+      "present": false,
+      "health": null,
+      "name": "Empty Slot 4",
+      "summary": {
+        "slot_type": "FullLength",
+        "slot_pcie_gen": "Gen4",
+        "slot_lanes": 8,
+        "form": "full_height"
+      },
+      "raw": {
+        "HotPluggable": false,
+        "Lanes": 8,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 4,
+            "LocationType": "Slot"
+          }
+        },
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+            "SlotKey": "PCIe.Slot.4"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "pcie:5",
+      "kind": "pcie",
+      "slot_key": "pcie:5",
+      "slot_label": "Slot 5",
+      "present": false,
+      "health": null,
+      "name": "Empty Slot 5",
+      "summary": {
+        "slot_type": "FullLength",
+        "slot_pcie_gen": "Gen4",
+        "slot_lanes": 8,
+        "form": "full_height"
+      },
+      "raw": {
+        "HotPluggable": false,
+        "Lanes": 8,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 5,
+            "LocationType": "Slot"
+          }
+        },
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+            "SlotKey": "PCIe.Slot.5"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "pcie:6",
+      "kind": "pcie",
+      "slot_key": "pcie:6",
+      "slot_label": "Slot 6",
+      "present": true,
+      "health": "OK",
+      "name": "MLNX 100GbE 2P ConnectX6 Adpt",
+      "summary": {
+        "category": "network",
+        "manufacturer": "Mellanox Technologies",
+        "model": "MLNX 100GbE 2P ConnectX6 Adpt",
+        "part_number": "0F6FXM",
+        "firmware": "22.31.10.14",
+        "pcie_gen": "Gen4",
+        "lanes": 16,
+        "port_count": 2,
+        "ports": [
+          {
+            "id": "NIC.Slot.6-1",
+            "link_status": "LinkDown",
+            "speed_mbps": 0,
+            "mac": "00:00:00:00:00:00"
+          },
+          {
+            "id": "NIC.Slot.6-2",
+            "link_status": "LinkUp",
+            "speed_mbps": 100000,
+            "mac": "00:00:00:00:00:00"
+          }
+        ],
+        "slot_type": "FullLength",
+        "slot_pcie_gen": "Gen4",
+        "slot_lanes": 16,
+        "form": "full_height"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0",
+        "AssetTag": null,
+        "Description": "MT2892 Family [ConnectX-6 Dx]",
+        "DeviceType": "MultiFunction",
+        "FirmwareVersion": "22.31.10.14",
+        "Id": "152-0",
+        "Manufacturer": "Mellanox Technologies",
+        "Model": "MLNX 100GbE 2P ConnectX6 Adpt",
+        "Name": "MT2892 Family [ConnectX-6 Dx]",
+        "PCIeFunctions": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0/PCIeFunctions"
+        },
+        "PCIeInterface": {
+          "LanesInUse": 16,
+          "MaxLanes": 16,
+          "MaxPCIeType": "Gen4",
+          "PCIeType": "Gen4"
+        },
+        "PartNumber": "0F6FXM",
+        "SKU": null,
+        "SerialNumber": "REDACTED",
+        "Slot": {
+          "Lanes": 16,
+          "Location": {
+            "PartLocation": {
+              "LocationOrdinalValue": 6,
+              "LocationType": "Slot"
+            }
+          },
+          "PCIeType": "Gen4",
+          "SlotType": "FullLength"
+        },
+        "Status": {
+          "Health": "OK",
+          "HealthRollup": "OK",
+          "State": "Enabled"
+        },
+        "NetworkAdapter": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6",
+          "Controllers": [
+            {
+              "ControllerCapabilities": {
+                "DataCenterBridging": {
+                  "Capable": true
+                },
+                "NPAR": {
+                  "NparCapable": false,
+                  "NparEnabled": null
+                },
+                "NPIV": {
+                  "MaxDeviceLogins": 0,
+                  "MaxPortLogins": 0
+                },
+                "NetworkDeviceFunctionCount": 2,
+                "NetworkPortCount": 2,
+                "VirtualizationOffload": {
+                  "SRIOV": {
+                    "SRIOVVEPACapable": true
+                  },
+                  "VirtualFunction": {
+                    "DeviceMaxCount": 254,
+                    "MinAssignmentGroupSize": 5,
+                    "NetworkPortMaxCount": 127
+                  }
+                }
+              },
+              "FirmwarePackageVersion": "22.31.10.14",
+              "Links": {
+                "NetworkDeviceFunctions": [
+                  {
+                    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkDeviceFunctions/NIC.Slot.6-1-1"
+                  },
+                  {
+                    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkDeviceFunctions/NIC.Slot.6-2-1"
+                  }
+                ],
+                "NetworkDeviceFunctions@odata.count": 2,
+                "NetworkPorts": [
+                  {
+                    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-1"
+                  },
+                  {
+                    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-2"
+                  }
+                ],
+                "NetworkPorts@odata.count": 2,
+                "Oem": {
+                  "Dell": {
+                    "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+                    "CPUAffinity": [
+                      {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2"
+                      }
+                    ],
+                    "CPUAffinity@odata.count": 1
+                  }
+                }
+              }
+            }
+          ],
+          "Description": "Network Adapter View",
+          "Id": "NIC.Slot.6",
+          "Manufacturer": "Mellanox Technologies",
+          "Model": "MLNX 100GbE 2P ConnectX6 Adpt",
+          "Name": "Network Adapter View",
+          "NetworkDeviceFunctions": {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkDeviceFunctions"
+          },
+          "NetworkPorts": {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts"
+          },
+          "NetworkPorts@Redfish.Deprecated": "Please migrate to use /redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/{NetworkAdaptersId}/Ports",
+          "Oem": {
+            "Dell": {
+              "@odata.type": "#DellNetworkAdapter.v1_2_0.DellNetworkAdapter",
+              "PLDMMonitoringEnabled": false
+            }
+          },
+          "PartNumber": "0F6FXM",
+          "Ports": {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/Ports"
+          },
+          "SerialNumber": "REDACTED",
+          "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+          }
+        }
+      }
+    },
+    {
+      "id": "pcie:7",
+      "kind": "pcie",
+      "slot_key": "pcie:7",
+      "slot_label": "Slot 7",
+      "present": false,
+      "health": null,
+      "name": "Empty Slot 7",
+      "summary": {
+        "slot_type": "FullLength",
+        "slot_pcie_gen": "Gen4",
+        "slot_lanes": 16,
+        "form": "full_height"
+      },
+      "raw": {
+        "HotPluggable": false,
+        "Lanes": 16,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 7,
+            "LocationType": "Slot"
+          }
+        },
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+            "SlotKey": "PCIe.Slot.7"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "ocp:1",
+      "kind": "ocp",
+      "slot_key": "ocp:1",
+      "slot_label": "OCP 1",
+      "present": true,
+      "health": "OK",
+      "name": "Intel(R) 25GbE 2P E810-XXV OCP",
+      "summary": {
+        "category": "network",
+        "manufacturer": "Intel Corporation",
+        "model": "Intel(R) 25GbE 2P E810-XXV OCP",
+        "part_number": "061X09",
+        "firmware": "20.5.13",
+        "port_count": 2,
+        "ports": [
+          {
+            "id": "NIC.Integrated.1-1",
+            "link_status": "LinkUp",
+            "speed_mbps": 25000,
+            "mac": "00:00:00:00:00:00"
+          },
+          {
+            "id": "NIC.Integrated.1-2",
+            "link_status": "LinkUp",
+            "speed_mbps": 25000,
+            "mac": "00:00:00:00:00:00"
+          }
+        ]
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1",
+        "Controllers": [
+          {
+            "ControllerCapabilities": {
+              "DataCenterBridging": {
+                "Capable": true
+              },
+              "NPAR": {
+                "NparCapable": false,
+                "NparEnabled": null
+              },
+              "NPIV": {
+                "MaxDeviceLogins": 0,
+                "MaxPortLogins": 0
+              },
+              "NetworkDeviceFunctionCount": 2,
+              "NetworkPortCount": 2,
+              "VirtualizationOffload": {
+                "SRIOV": {
+                  "SRIOVVEPACapable": true
+                },
+                "VirtualFunction": {
+                  "DeviceMaxCount": 512,
+                  "MinAssignmentGroupSize": 128,
+                  "NetworkPortMaxCount": 256
+                }
+              }
+            },
+            "FirmwarePackageVersion": "20.5.13",
+            "Links": {
+              "NetworkDeviceFunctions": [
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkDeviceFunctions/NIC.Integrated.1-1-1"
+                },
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkDeviceFunctions/NIC.Integrated.1-2-1"
+                }
+              ],
+              "NetworkDeviceFunctions@odata.count": 2,
+              "NetworkPorts": [
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-1"
+                },
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-2"
+                }
+              ],
+              "NetworkPorts@odata.count": 2,
+              "Oem": {
+                "Dell": {
+                  "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+                  "CPUAffinity": [
+                    {
+                      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                    }
+                  ],
+                  "CPUAffinity@odata.count": 1
+                }
+              }
+            }
+          }
+        ],
+        "Description": "Network Adapter View",
+        "Id": "NIC.Integrated.1",
+        "Manufacturer": "Intel Corporation",
+        "Model": "Intel(R) 25GbE 2P E810-XXV OCP",
+        "Name": "Network Adapter View",
+        "NetworkDeviceFunctions": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkDeviceFunctions"
+        },
+        "NetworkPorts": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts"
+        },
+        "NetworkPorts@Redfish.Deprecated": "Please migrate to use /redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/{NetworkAdaptersId}/Ports",
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellNetworkAdapter.v1_2_0.DellNetworkAdapter",
+            "PLDMMonitoringEnabled": false
+          }
+        },
+        "PartNumber": "061X09",
+        "Ports": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/Ports"
+        },
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "HealthRollup": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "lom:1",
+      "kind": "lom",
+      "slot_key": "lom:1",
+      "slot_label": "LOM 1",
+      "present": true,
+      "health": "OK",
+      "name": "Broadcom Inc. and subsidiaries 2-port NIC",
+      "summary": {
+        "category": "network",
+        "manufacturer": "Broadcom Inc. and subsidiaries",
+        "firmware": "21.81.3",
+        "port_count": 2,
+        "ports": [
+          {
+            "id": "NIC.Embedded.1-1",
+            "link_status": "LinkDown",
+            "speed_mbps": 0,
+            "mac": "00:00:00:00:00:00"
+          },
+          {
+            "id": "NIC.Embedded.2-1",
+            "link_status": "LinkDown",
+            "speed_mbps": 0,
+            "mac": "00:00:00:00:00:00"
+          }
+        ]
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1",
+        "Controllers": [
+          {
+            "ControllerCapabilities": {
+              "DataCenterBridging": {
+                "Capable": null
+              },
+              "NPAR": {
+                "NparCapable": false,
+                "NparEnabled": null
+              },
+              "NPIV": {
+                "MaxDeviceLogins": 0,
+                "MaxPortLogins": 0
+              },
+              "NetworkDeviceFunctionCount": 2,
+              "NetworkPortCount": 2,
+              "VirtualizationOffload": {
+                "SRIOV": {
+                  "SRIOVVEPACapable": null
+                },
+                "VirtualFunction": {
+                  "DeviceMaxCount": null,
+                  "MinAssignmentGroupSize": null,
+                  "NetworkPortMaxCount": null
+                }
+              }
+            },
+            "FirmwarePackageVersion": "21.81.3",
+            "Links": {
+              "NetworkDeviceFunctions": [
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions/NIC.Embedded.1-1-1"
+                },
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions/NIC.Embedded.2-1-1"
+                }
+              ],
+              "NetworkDeviceFunctions@odata.count": 2,
+              "NetworkPorts": [
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-1"
+                },
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.2-1"
+                }
+              ],
+              "NetworkPorts@odata.count": 2,
+              "Oem": {
+                "Dell": {
+                  "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+                  "CPUAffinity": [],
+                  "CPUAffinity@odata.count": 0
+                }
+              }
+            }
+          }
+        ],
+        "Description": "Network Adapter View",
+        "Id": "NIC.Embedded.1",
+        "Manufacturer": "Broadcom Inc. and subsidiaries",
+        "Model": null,
+        "Name": "Network Adapter View",
+        "NetworkDeviceFunctions": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions"
+        },
+        "NetworkPorts": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts"
+        },
+        "NetworkPorts@Redfish.Deprecated": "Please migrate to use /redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/{NetworkAdaptersId}/Ports",
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellNetworkAdapter.v1_2_0.DellNetworkAdapter",
+            "PLDMMonitoringEnabled": false
+          }
+        },
+        "PartNumber": null,
+        "Ports": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/Ports"
+        },
+        "SerialNumber": null,
+        "Status": {
+          "Health": "OK",
+          "HealthRollup": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "psu:1",
+      "kind": "psu",
+      "slot_key": "psu:1",
+      "slot_label": "PSU1",
+      "present": true,
+      "health": "OK",
+      "name": "DELL 1400W PSU",
+      "summary": {
+        "capacity_w": 1400,
+        "model": "PWR SPLY,1400W,RDNT,LTON",
+        "manufacturer": "DELL",
+        "part_number": "01CW9GA04",
+        "firmware": "00.18.29",
+        "input_watts": 109.75,
+        "output_watts": 90.875,
+        "line_input_voltage": 204
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/0",
+        "EfficiencyPercent": 92.0000016689301,
+        "FirmwareVersion": "00.18.29",
+        "HotPluggable": true,
+        "InputRanges": [
+          {
+            "InputType": "AC",
+            "MaximumFrequencyHz": 63,
+            "MaximumVoltage": 264,
+            "MinimumFrequencyHz": 47,
+            "MinimumVoltage": 90,
+            "OutputWattage": 1400
+          }
+        ],
+        "LastPowerOutputWatts": 90.875,
+        "LineInputVoltage": 204,
+        "LineInputVoltageType": "AC240V",
+        "Manufacturer": "DELL",
+        "MemberId": "0",
+        "Model": "PWR SPLY,1400W,RDNT,LTON",
+        "Name": "PS1 Status",
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellPowerSupply": {
+              "@odata.context": "/redfish/v1/$metadata#DellPowerSupply.DellPowerSupply",
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power/Oem/Dell/DellPowerSupply/PSU.Slot.1",
+              "@odata.type": "#DellPowerSupply.v1_1_1.DellPowerSupply",
+              "ActiveInputVoltage": "Unknown",
+              "ActiveInputVoltage@Redfish.Deprecated": "Please migrate to use InputNominalVoltageType under DMTF PowerSupply",
+              "Id": "PSU.Slot.1",
+              "IsSwitchingSupply": true,
+              "Links": {
+                "DellPSNumericSensorCollection": [
+                  {
+                    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellPSNumericSensors/iDRAC.Embedded.1_0x23_PS1Current1"
+                  }
+                ],
+                "DellPSNumericSensorCollection@odata.count": 1
+              },
+              "Name": "DellPowerSupply",
+              "OperationalStatus": [
+                "OK"
+              ],
+              "OperationalStatus@odata.count": 1,
+              "RequestedState": "NotApplicable"
+            },
+            "DellPowerSupplyView": {
+              "@odata.context": "/redfish/v1/$metadata#DellPowerSupplyView.DellPowerSupplyView",
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power/Oem/Dell/DellPowerSupplyInventory/PSU.Slot.1",
+              "@odata.type": "#DellPowerSupplyView.v1_3_0.DellPowerSupplyView",
+              "DetailedState": "Presence Detected",
+              "DeviceDescription": "Power Supply 1",
+              "Id": "PSU.Slot.1",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2026-09-30T21:30:31+00:00",
+              "Name": "DellPowerSupplyView",
+              "PMBusMonitoring": "Capable",
+              "Range1MaxInputPowerWatts": 1568,
+              "RedMinNumberNeeded": 1,
+              "RedTypeOfSet": [
+                "N+1",
+                "InputPowerRedundancy"
+              ],
+              "RedTypeOfSet@odata.count": 2,
+              "RedundancyStatus": "FullyRedundant"
+            }
+          }
+        },
+        "PartNumber": "01CW9GA04",
+        "PowerCapacityWatts": 1400,
+        "PowerInputWatts": 109.75,
+        "PowerOutputWatts": 90.875,
+        "PowerSupplyType": "AC",
+        "Redundancy": [
+          {
+            "@odata.context": "/redfish/v1/$metadata#Redundancy.Redundancy",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power#/Redundancy/0",
+            "@odata.type": "#Redundancy.v1_4_2.Redundancy",
+            "MaxNumSupported": 2,
+            "MemberId": "0",
+            "MinNumNeeded": 1,
+            "Mode": "N+m",
+            "Name": "System Board PS Redundancy",
+            "RedundancySet": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/0"
+              },
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/1"
+              }
+            ],
+            "RedundancySet@odata.count": 2,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            }
+          }
+        ],
+        "RelatedItem": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+          }
+        ],
+        "SerialNumber": "REDACTED",
+        "SparePartNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "psu:2",
+      "kind": "psu",
+      "slot_key": "psu:2",
+      "slot_label": "PSU2",
+      "present": true,
+      "health": "OK",
+      "name": "DELL 1400W PSU",
+      "summary": {
+        "capacity_w": 1400,
+        "model": "PWR SPLY,1400W,RDNT,LTON",
+        "manufacturer": "DELL",
+        "part_number": "01CW9GA04",
+        "firmware": "00.18.29",
+        "input_watts": 132.5,
+        "output_watts": 115.0,
+        "line_input_voltage": 208
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/1",
+        "EfficiencyPercent": 92.0000016689301,
+        "FirmwareVersion": "00.18.29",
+        "HotPluggable": true,
+        "InputRanges": [
+          {
+            "InputType": "AC",
+            "MaximumFrequencyHz": 63,
+            "MaximumVoltage": 264,
+            "MinimumFrequencyHz": 47,
+            "MinimumVoltage": 90,
+            "OutputWattage": 1400
+          }
+        ],
+        "LastPowerOutputWatts": 115.0,
+        "LineInputVoltage": 208,
+        "LineInputVoltageType": "AC240V",
+        "Manufacturer": "DELL",
+        "MemberId": "1",
+        "Model": "PWR SPLY,1400W,RDNT,LTON",
+        "Name": "PS2 Status",
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellPowerSupply": {
+              "@odata.context": "/redfish/v1/$metadata#DellPowerSupply.DellPowerSupply",
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power/Oem/Dell/DellPowerSupply/PSU.Slot.2",
+              "@odata.type": "#DellPowerSupply.v1_1_1.DellPowerSupply",
+              "ActiveInputVoltage": "Unknown",
+              "ActiveInputVoltage@Redfish.Deprecated": "Please migrate to use InputNominalVoltageType under DMTF PowerSupply",
+              "Id": "PSU.Slot.2",
+              "IsSwitchingSupply": true,
+              "Links": {
+                "DellPSNumericSensorCollection": [
+                  {
+                    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellPSNumericSensors/iDRAC.Embedded.1_0x23_PS2Current2"
+                  }
+                ],
+                "DellPSNumericSensorCollection@odata.count": 1
+              },
+              "Name": "DellPowerSupply",
+              "OperationalStatus": [
+                "OK"
+              ],
+              "OperationalStatus@odata.count": 1,
+              "RequestedState": "NotApplicable"
+            },
+            "DellPowerSupplyView": {
+              "@odata.context": "/redfish/v1/$metadata#DellPowerSupplyView.DellPowerSupplyView",
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power/Oem/Dell/DellPowerSupplyInventory/PSU.Slot.2",
+              "@odata.type": "#DellPowerSupplyView.v1_3_0.DellPowerSupplyView",
+              "DetailedState": "Presence Detected",
+              "DeviceDescription": "Power Supply 2",
+              "Id": "PSU.Slot.2",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2026-09-30T21:30:32+00:00",
+              "Name": "DellPowerSupplyView",
+              "PMBusMonitoring": "Capable",
+              "Range1MaxInputPowerWatts": 1568,
+              "RedMinNumberNeeded": 1,
+              "RedTypeOfSet": [
+                "N+1",
+                "InputPowerRedundancy"
+              ],
+              "RedTypeOfSet@odata.count": 2,
+              "RedundancyStatus": "FullyRedundant"
+            }
+          }
+        },
+        "PartNumber": "01CW9GA04",
+        "PowerCapacityWatts": 1400,
+        "PowerInputWatts": 132.5,
+        "PowerOutputWatts": 115.0,
+        "PowerSupplyType": "AC",
+        "Redundancy": [
+          {
+            "@odata.context": "/redfish/v1/$metadata#Redundancy.Redundancy",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power#/Redundancy/0",
+            "@odata.type": "#Redundancy.v1_4_2.Redundancy",
+            "MaxNumSupported": 2,
+            "MemberId": "0",
+            "MinNumNeeded": 1,
+            "Mode": "N+m",
+            "Name": "System Board PS Redundancy",
+            "RedundancySet": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/0"
+              },
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/1"
+              }
+            ],
+            "RedundancySet@odata.count": 2,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            }
+          }
+        ],
+        "RelatedItem": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+          }
+        ],
+        "SerialNumber": "REDACTED",
+        "SparePartNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "fan:1",
+      "kind": "fan",
+      "slot_key": "fan:1",
+      "slot_label": "Fan 1",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 1",
+      "summary": {
+        "rpm": [
+          4440,
+          3840
+        ],
+        "rotor_names": [
+          "System Board Fan1A",
+          "System Board Fan1B"
+        ]
+      },
+      "raw": {
+        "Id": "Fan1",
+        "Rotors": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/0",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan1A",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "0",
+            "MinReadingRange": null,
+            "Name": "System Board Fan1A",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 4440,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 56,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/1",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan1B",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "1",
+            "MinReadingRange": null,
+            "Name": "System Board Fan1B",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 3840,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 57,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:2",
+      "kind": "fan",
+      "slot_key": "fan:2",
+      "slot_label": "Fan 2",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 2",
+      "summary": {
+        "rpm": [
+          4560,
+          3840
+        ],
+        "rotor_names": [
+          "System Board Fan2A",
+          "System Board Fan2B"
+        ]
+      },
+      "raw": {
+        "Id": "Fan2",
+        "Rotors": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/2",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan2A",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "2",
+            "MinReadingRange": null,
+            "Name": "System Board Fan2A",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 4560,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 58,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/3",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan2B",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "3",
+            "MinReadingRange": null,
+            "Name": "System Board Fan2B",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 3840,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 59,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:3",
+      "kind": "fan",
+      "slot_key": "fan:3",
+      "slot_label": "Fan 3",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 3",
+      "summary": {
+        "rpm": [
+          4440,
+          3840
+        ],
+        "rotor_names": [
+          "System Board Fan3A",
+          "System Board Fan3B"
+        ]
+      },
+      "raw": {
+        "Id": "Fan3",
+        "Rotors": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/4",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan3A",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "4",
+            "MinReadingRange": null,
+            "Name": "System Board Fan3A",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 4440,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 60,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/5",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan3B",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "5",
+            "MinReadingRange": null,
+            "Name": "System Board Fan3B",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 3840,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 61,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:4",
+      "kind": "fan",
+      "slot_key": "fan:4",
+      "slot_label": "Fan 4",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 4",
+      "summary": {
+        "rpm": [
+          4440,
+          3840
+        ],
+        "rotor_names": [
+          "System Board Fan4A",
+          "System Board Fan4B"
+        ]
+      },
+      "raw": {
+        "Id": "Fan4",
+        "Rotors": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/6",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan4A",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "6",
+            "MinReadingRange": null,
+            "Name": "System Board Fan4A",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 4440,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 62,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/7",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan4B",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "7",
+            "MinReadingRange": null,
+            "Name": "System Board Fan4B",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 3840,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 63,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:5",
+      "kind": "fan",
+      "slot_key": "fan:5",
+      "slot_label": "Fan 5",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 5",
+      "summary": {
+        "rpm": [
+          4560,
+          3840
+        ],
+        "rotor_names": [
+          "System Board Fan5A",
+          "System Board Fan5B"
+        ]
+      },
+      "raw": {
+        "Id": "Fan5",
+        "Rotors": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/8",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan5A",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "8",
+            "MinReadingRange": null,
+            "Name": "System Board Fan5A",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 4560,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 64,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/9",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan5B",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "9",
+            "MinReadingRange": null,
+            "Name": "System Board Fan5B",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 3840,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 65,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:6",
+      "kind": "fan",
+      "slot_key": "fan:6",
+      "slot_label": "Fan 6",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 6",
+      "summary": {
+        "rpm": [
+          4440,
+          3840
+        ],
+        "rotor_names": [
+          "System Board Fan6A",
+          "System Board Fan6B"
+        ]
+      },
+      "raw": {
+        "Id": "Fan6",
+        "Rotors": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/10",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan6A",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "10",
+            "MinReadingRange": null,
+            "Name": "System Board Fan6A",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 4440,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 66,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/11",
+            "@odata.type": "#Thermal.v1_7_3.Fan",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "FanName": "System Board Fan6B",
+            "HotPluggable": true,
+            "LowerThresholdCritical": 480,
+            "LowerThresholdFatal": null,
+            "LowerThresholdNonCritical": 840,
+            "MaxReadingRange": null,
+            "MemberId": "11",
+            "MinReadingRange": null,
+            "Name": "System Board Fan6B",
+            "PhysicalContext": "SystemBoard",
+            "Reading": 3840,
+            "ReadingUnits": "RPM",
+            "Redundancy": [],
+            "Redundancy@odata.count": 0,
+            "RelatedItem": [
+              {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+              }
+            ],
+            "RelatedItem@odata.count": 1,
+            "SensorNumber": 67,
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            },
+            "UpperThresholdCritical": null,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "bay:0",
+      "kind": "drive",
+      "slot_key": "bay:0",
+      "slot_label": "Bay 0",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7KH480HAHQ0D3 480GB",
+      "summary": {
+        "capacity_gb": 480,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7KH480HAHQ0D3",
+        "manufacturer": "SAMSUNG",
+        "firmware": "HF58",
+        "controller": "PERC H745 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "BlockSizeBytes": 512,
+        "CapableSpeedGbs": 6,
+        "CapacityBytes": 479559942144,
+        "Description": "Disk 0 in Backplane 1 of RAID Controller in SL 3",
+        "EncryptionAbility": "None",
+        "EncryptionStatus": "Unencrypted",
+        "FailurePredicted": false,
+        "HotspareType": "None",
+        "Id": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Identifiers": [
+          {
+            "DurableName": "REDACTED",
+            "DurableNameFormat": "NAA"
+          }
+        ],
+        "Location": [],
+        "LocationIndicatorActive": null,
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7KH480HAHQ0D3",
+        "Name": "Solid State Disk 0:1:0",
+        "NegotiatedSpeedGbs": 6,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellDrive.v1_1_0.DellDrive",
+            "DellDriveSMARTAttributes": {
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1/Oem/Dell/DellDriveSMARTAttributes"
+            },
+            "DellPhysicalDisk": {
+              "@odata.context": "/redfish/v1/$metadata#DellPhysicalDisk.DellPhysicalDisk",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1/Oem/Dell/DellDrives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+              "@odata.type": "#DellPhysicalDisk.v1_7_0.DellPhysicalDisk",
+              "AvailableSparePercent": null,
+              "Certified": "Yes",
+              "Connector": 0,
+              "CryptographicEraseCapable": "Capable",
+              "Description": "An instance of DellPhysicalDisk will have Physical Disk specific data.",
+              "DeviceProtocol": null,
+              "DeviceSidebandProtocol": null,
+              "DriveFormFactor": "2.5Inch",
+              "EncryptionProtocol": "None",
+              "ErrorDescription": null,
+              "ErrorRecoverable": "NotApplicable",
+              "ForeignKeyIdentifier": null,
+              "FreeSizeInBytes": 0,
+              "Id": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2026-09-01T15:50:05+00:00",
+              "ManufacturingDay": 0,
+              "ManufacturingWeek": 0,
+              "ManufacturingYear": 0,
+              "Name": "DellPhysicalDisk",
+              "NonRAIDDiskCachePolicy": "Unknown",
+              "OperationName": "None",
+              "OperationPercentCompletePercent": 0,
+              "PCIeCapableLinkWidth": "None",
+              "PCIeNegotiatedLinkWidth": "None",
+              "PPID": "REDACTED",
+              "PowerStatus": "On",
+              "PredictiveFailureState": "SmartAlertAbsent",
+              "ProductID": "MZ7KH480HAHQ0D3",
+              "RAIDType": "Unknown",
+              "RaidStatus": "Online",
+              "SASAddress": "3B07B250EBD75207",
+              "Slot": 0,
+              "SystemEraseCapability": "CryptographicErasePD",
+              "T10PICapability": "NotSupported",
+              "UsedSizeInBytes": 479559942144,
+              "WWN": "3B07B250EBD75207"
+            },
+            "FIPS140ComplianceDescriptor": {
+              "ComplianceDescriptorModuleName": null,
+              "ComplianceDescriptorType": null,
+              "ComplianceDescriptorVersion": null,
+              "ComplianceHardwareVersion": null,
+              "ComplianceOverallSecurityLevel": null,
+              "ComplianceRelatedStandard": null
+            }
+          }
+        },
+        "Operations": [],
+        "PartNumber": "XX-03KVC5-00000-000-0000-A03",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 0,
+            "LocationType": "Slot"
+          }
+        },
+        "PredictedMediaLifeLeftPercent": 99,
+        "Protocol": "SATA",
+        "Revision": "HF58",
+        "RotationSpeedRPM": null,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "HealthRollup": "OK",
+          "State": "Enabled"
+        },
+        "WriteCacheEnabled": false
+      }
+    },
+    {
+      "id": "bay:1",
+      "kind": "drive",
+      "slot_key": "bay:1",
+      "slot_label": "Bay 1",
+      "present": true,
+      "health": "OK",
+      "name": "MZ7KH480HAHQ0D3 480GB",
+      "summary": {
+        "capacity_gb": 480,
+        "media_type": "SSD",
+        "protocol": "SATA",
+        "model": "MZ7KH480HAHQ0D3",
+        "manufacturer": "SAMSUNG",
+        "firmware": "HF58",
+        "controller": "PERC H745 Front"
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "BlockSizeBytes": 512,
+        "CapableSpeedGbs": 6,
+        "CapacityBytes": 479559942144,
+        "Description": "Disk 1 in Backplane 1 of RAID Controller in SL 3",
+        "EncryptionAbility": "None",
+        "EncryptionStatus": "Unencrypted",
+        "FailurePredicted": false,
+        "HotspareType": "None",
+        "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+        "Identifiers": [
+          {
+            "DurableName": "REDACTED",
+            "DurableNameFormat": "NAA"
+          }
+        ],
+        "Location": [],
+        "LocationIndicatorActive": null,
+        "Manufacturer": "SAMSUNG",
+        "MediaType": "SSD",
+        "Model": "MZ7KH480HAHQ0D3",
+        "Name": "Solid State Disk 0:1:1",
+        "NegotiatedSpeedGbs": 6,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellDrive.v1_1_0.DellDrive",
+            "DellDriveSMARTAttributes": {
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1/Oem/Dell/DellDriveSMARTAttributes"
+            },
+            "DellPhysicalDisk": {
+              "@odata.context": "/redfish/v1/$metadata#DellPhysicalDisk.DellPhysicalDisk",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1/Oem/Dell/DellDrives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+              "@odata.type": "#DellPhysicalDisk.v1_7_0.DellPhysicalDisk",
+              "AvailableSparePercent": null,
+              "Certified": "Yes",
+              "Connector": 0,
+              "CryptographicEraseCapable": "Capable",
+              "Description": "An instance of DellPhysicalDisk will have Physical Disk specific data.",
+              "DeviceProtocol": null,
+              "DeviceSidebandProtocol": null,
+              "DriveFormFactor": "2.5Inch",
+              "EncryptionProtocol": "None",
+              "ErrorDescription": null,
+              "ErrorRecoverable": "NotApplicable",
+              "ForeignKeyIdentifier": null,
+              "FreeSizeInBytes": 0,
+              "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2026-09-01T15:50:05+00:00",
+              "ManufacturingDay": 0,
+              "ManufacturingWeek": 0,
+              "ManufacturingYear": 0,
+              "Name": "DellPhysicalDisk",
+              "NonRAIDDiskCachePolicy": "Unknown",
+              "OperationName": "None",
+              "OperationPercentCompletePercent": 0,
+              "PCIeCapableLinkWidth": "None",
+              "PCIeNegotiatedLinkWidth": "None",
+              "PPID": "REDACTED",
+              "PowerStatus": "On",
+              "PredictiveFailureState": "SmartAlertAbsent",
+              "ProductID": "MZ7KH480HAHQ0D3",
+              "RAIDType": "Unknown",
+              "RaidStatus": "Online",
+              "SASAddress": "3B07B250EBD75206",
+              "Slot": 1,
+              "SystemEraseCapability": "CryptographicErasePD",
+              "T10PICapability": "NotSupported",
+              "UsedSizeInBytes": 479559942144,
+              "WWN": "3B07B250EBD75206"
+            },
+            "FIPS140ComplianceDescriptor": {
+              "ComplianceDescriptorModuleName": null,
+              "ComplianceDescriptorType": null,
+              "ComplianceDescriptorVersion": null,
+              "ComplianceHardwareVersion": null,
+              "ComplianceOverallSecurityLevel": null,
+              "ComplianceRelatedStandard": null
+            }
+          }
+        },
+        "Operations": [],
+        "PartNumber": "XX-03KVC5-00000-000-0000-A03",
+        "PhysicalLocation": {
+          "PartLocation": {
+            "LocationOrdinalValue": 1,
+            "LocationType": "Slot"
+          }
+        },
+        "PredictedMediaLifeLeftPercent": 99,
+        "Protocol": "SATA",
+        "Revision": "HF58",
+        "RotationSpeedRPM": null,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "HealthRollup": "OK",
+          "State": "Enabled"
+        },
+        "WriteCacheEnabled": false
+      }
+    },
+    {
+      "id": "storage:RAID.SL.3-1",
+      "kind": "storage",
+      "slot_key": null,
+      "slot_label": null,
+      "present": true,
+      "health": "OK",
+      "name": "PERC H745 Front",
+      "summary": {
+        "model": "PERC H745 Front",
+        "firmware": "51.16.0-4076",
+        "drive_count": 2
+      },
+      "raw": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1",
+        "Controllers": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Controllers"
+        },
+        "Description": "RAID Controller in SL 3",
+        "Drives": [
+          {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1"
+          },
+          {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1"
+          }
+        ],
+        "Id": "RAID.SL.3-1",
+        "Identifiers": [
+          {
+            "DurableName": "REDACTED",
+            "DurableNameFormat": "NAA"
+          }
+        ],
+        "Name": "PERC H745 Front",
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+            "DellController": {
+              "@odata.context": "/redfish/v1/$metadata#DellController.DellController",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Oem/Dell/DellControllers/RAID.SL.3-1",
+              "@odata.type": "#DellController.v1_5_0.DellController",
+              "AlarmState": "AlarmNotPresent",
+              "AutoConfigBehavior": "Off",
+              "BootVirtualDiskFQDD": "Disk.Virtual.0:RAID.SL.3-1",
+              "CacheSizeInMB": 4096,
+              "CachecadeCapability": "NotSupported",
+              "ConnectorCount": 4,
+              "ControllerFirmwareVersion": "51.16.0-4076",
+              "CurrentControllerMode": "RAID",
+              "Description": "An instance of DellController will have RAID Controller specific data.",
+              "Device": "0",
+              "DeviceCardDataBusWidth": "Unknown",
+              "DeviceCardSlotLength": "Unknown",
+              "DeviceCardSlotType": "Unknown",
+              "DriverVersion": "--NA--",
+              "EncryptionCapability": "LocalKeyManagementAndSecureEnterpriseKeyManagerCapable",
+              "EncryptionMode": "None",
+              "Id": "RAID.SL.3-1",
+              "KeyID": null,
+              "LastSystemInventoryTime": "2026-09-01T20:50:06+00:00",
+              "LastUpdateTime": "2026-09-01T15:50:05+00:00",
+              "MaxAvailablePCILinkSpeed": null,
+              "MaxPossiblePCILinkSpeed": null,
+              "Name": "DellController",
+              "PCISlot": null,
+              "PatrolReadState": "Stopped",
+              "PersistentHotspare": "Disabled",
+              "RealtimeCapability": "Capable",
+              "RollupStatus": "OK",
+              "SASAddress": "5B07B250EBD75200",
+              "SecurityStatus": "EncryptionCapable",
+              "SharedSlotAssignmentAllowed": "NotApplicable",
+              "SlicedVDCapability": "Supported",
+              "SupportControllerBootMode": "NotSupported",
+              "SupportEnhancedAutoForeignImport": "Supported",
+              "SupportRAID10UnevenSpans": "Supported",
+              "SupportsLKMtoSEKMTransition": "Yes",
+              "T10PICapability": "NotSupported"
+            },
+            "DellControllerBattery": {
+              "@odata.context": "/redfish/v1/$metadata#DellControllerBattery.DellControllerBattery",
+              "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Oem/Dell/DellControllerBattery/Battery.Integrated.1:RAID.SL.3-1",
+              "@odata.type": "#DellControllerBattery.v1_0_0.DellControllerBattery",
+              "Description": "An instance of DellController will have RAID Controller specific data.",
+              "FQDD": "Battery.Integrated.1:RAID.SL.3-1",
+              "Id": "Battery.Integrated.1:RAID.SL.3-1",
+              "Name": "Battery on RAID Controller in SL 3",
+              "PrimaryStatus": "OK",
+              "RAIDState": "Ready"
+            }
+          }
+        },
+        "Status": {
+          "Health": "OK",
+          "HealthRollup": "OK",
+          "State": "Enabled"
+        },
+        "StorageControllers": [
+          {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1#/StorageControllers/0",
+            "Assembly": {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "CacheSummary": {
+              "TotalCacheSizeMiB": 4096
+            },
+            "ControllerRates": {
+              "ConsistencyCheckRatePercent": 30,
+              "RebuildRatePercent": 30
+            },
+            "FirmwareVersion": "51.16.0-4076",
+            "Identifiers": [
+              {
+                "DurableName": "REDACTED",
+                "DurableNameFormat": "NAA"
+              }
+            ],
+            "Identifiers@odata.count": 1,
+            "Links": {
+              "PCIeFunctions": [
+                {
+                  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/101-0/PCIeFunctions/101-0-0"
+                }
+              ],
+              "PCIeFunctions@odata.count": 1
+            },
+            "Manufacturer": "DELL",
+            "MemberId": "0",
+            "Model": "PERC H745 Front",
+            "Name": "PERC H745 Front",
+            "SpeedGbps": 12.0,
+            "Status": {
+              "Health": "OK",
+              "HealthRollup": "OK",
+              "State": "Enabled"
+            },
+            "SupportedControllerProtocols": [
+              "PCIe"
+            ],
+            "SupportedControllerProtocols@odata.count": 1,
+            "SupportedDeviceProtocols": [
+              "SAS",
+              "SATA"
+            ],
+            "SupportedDeviceProtocols@odata.count": 2,
+            "SupportedRAIDTypes": [
+              "RAID0",
+              "RAID1",
+              "RAID5",
+              "RAID6",
+              "RAID10",
+              "RAID50",
+              "RAID60"
+            ],
+            "SupportedRAIDTypes@odata.count": 7
+          }
+        ],
+        "StorageControllers@Redfish.Deprecated": "Please migrate to use /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Controllers",
+        "Volumes": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Volumes"
+        }
+      }
+    }
+  ]
+}

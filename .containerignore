@@ -1,0 +1,11 @@
+.git
+.venv
+**/__pycache__
+**/node_modules
+web/dist
+data
+config
+*.log
+redfish_servers.yaml
+redfish_secrets.yaml
+config.yaml

@@ -1,0 +1,15 @@
+__pycache__/
+*.egg-info/
+.venv/
+.coverage
+data/
+config/
+.env
+redfish_servers.yaml
+redfish_secrets.yaml
+!examples/redfish_servers.yaml
+!examples/redfish_secrets.yaml
+/config.yaml
+web/node_modules/
+web/dist/
+web/tsconfig.tsbuildinfo

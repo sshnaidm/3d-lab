@@ -1,0 +1,1412 @@
+{
+  "/redfish/v1": {
+    "@odata.id": "/redfish/v1",
+    "Oem": {
+      "Dell": {}
+    },
+    "RedfishVersion": "1.17.0"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1",
+    "ChassisType": "RackMount",
+    "Id": "System.Embedded.1",
+    "Model": "PowerEdge R750",
+    "NetworkAdapters": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters"
+    },
+    "PCIeDevices": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices"
+    },
+    "PCIeSlots": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeSlots"
+    },
+    "Power": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power"
+    },
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    },
+    "Thermal": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal"
+    }
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1"
+      }
+    ],
+    "Members@odata.count": 4
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1",
+    "Controllers": [
+      {
+        "ControllerCapabilities": {
+          "NetworkPortCount": 2
+        },
+        "FirmwarePackageVersion": "22.31.6"
+      }
+    ],
+    "Id": "NIC.Embedded.1",
+    "Manufacturer": "Broadcom Inc. and subsidiaries",
+    "Model": "Broadcom Gigabit Ethernet BCM5720",
+    "NetworkPorts": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts"
+    },
+    "PartNumber": "0XXXXX",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-2"
+      }
+    ],
+    "Members@odata.count": 2
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-1": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 1000,
+    "Id": "NIC.Embedded.1-1",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-2": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 1000,
+    "Id": "NIC.Embedded.1-2",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1",
+    "Controllers": [
+      {
+        "ControllerCapabilities": {
+          "NetworkPortCount": 2
+        },
+        "FirmwarePackageVersion": "22.5.7"
+      }
+    ],
+    "Id": "NIC.Integrated.1",
+    "Manufacturer": "Intel Corporation",
+    "Model": "Intel(R) Ethernet 10G 2P X710 OCP NIC 3.0",
+    "NetworkPorts": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts"
+    },
+    "PartNumber": "0XXXXX",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-2"
+      }
+    ],
+    "Members@odata.count": 2
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-1": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 10000,
+    "Id": "NIC.Integrated.1-1",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-2": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 10000,
+    "Id": "NIC.Integrated.1-2",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3",
+    "Controllers": [
+      {
+        "ControllerCapabilities": {
+          "NetworkPortCount": 4
+        },
+        "FirmwarePackageVersion": "22.5.7"
+      }
+    ],
+    "Id": "NIC.Slot.3",
+    "Manufacturer": "Intel Corporation",
+    "Model": "Intel(R) Ethernet 25G 4P E810-XXV Adapter",
+    "NetworkPorts": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts"
+    },
+    "PartNumber": "0XXXXX",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-4"
+      }
+    ],
+    "Members@odata.count": 4
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-1": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 25000,
+    "Id": "NIC.Slot.3-1",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-2": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 25000,
+    "Id": "NIC.Slot.3-2",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-3": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 0,
+    "Id": "NIC.Slot.3-3",
+    "LinkStatus": "Down"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-4": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 0,
+    "Id": "NIC.Slot.3-4",
+    "LinkStatus": "Down"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6",
+    "Controllers": [
+      {
+        "ControllerCapabilities": {
+          "NetworkPortCount": 4
+        },
+        "FirmwarePackageVersion": "22.5.7"
+      }
+    ],
+    "Id": "NIC.Slot.6",
+    "Manufacturer": "Intel Corporation",
+    "Model": "Intel(R) Ethernet 25G 4P E810-XXV Adapter",
+    "NetworkPorts": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts"
+    },
+    "PartNumber": "0XXXXX",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-4"
+      }
+    ],
+    "Members@odata.count": 4
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-1": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 25000,
+    "Id": "NIC.Slot.6-1",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-2": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 25000,
+    "Id": "NIC.Slot.6-2",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-3": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 0,
+    "Id": "NIC.Slot.6-3",
+    "LinkStatus": "Down"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.6/NetworkPorts/NIC.Slot.6-4": {
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "CurrentLinkSpeedMbps": 0,
+    "Id": "NIC.Slot.6-4",
+    "LinkStatus": "Down"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24"
+      }
+    ],
+    "Members@odata.count": 3
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24",
+    "Id": "0-24",
+    "Manufacturer": "Intel Corporation",
+    "Name": "C620 Series Chipset Family",
+    "PCIeFunctions": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24/PCIeFunctions"
+    },
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24/PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24/PCIeFunctions",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24/PCIeFunctions/0-24-0"
+      }
+    ],
+    "Members@odata.count": 1
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24/PCIeFunctions/0-24-0": {
+    "DeviceClass": "Bridge",
+    "FunctionType": "Physical",
+    "Id": "0-24-0"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0",
+    "Description": "Ethernet Controller E810-XXV for SFP",
+    "FirmwareVersion": "22.5.7",
+    "Id": "152-0",
+    "Manufacturer": "Intel Corporation",
+    "Name": "Intel(R) Ethernet 25G 4P E810-XXV Adapter",
+    "PCIeFunctions": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0/PCIeFunctions"
+    },
+    "PCIeInterface": {
+      "LanesInUse": 16,
+      "PCIeType": "Gen4"
+    },
+    "Slot": {
+      "Location": {
+        "PartLocation": {
+          "LocationOrdinalValue": 6,
+          "LocationType": "Slot",
+          "ServiceLabel": "Slot 6"
+        }
+      }
+    },
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0/PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0/PCIeFunctions",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0/PCIeFunctions/152-0-0"
+      }
+    ],
+    "Members@odata.count": 1
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0/PCIeFunctions/152-0-0": {
+    "DeviceClass": "NetworkController",
+    "FunctionType": "Physical",
+    "Id": "152-0-0"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0",
+    "Description": "Ethernet Controller E810-XXV for SFP",
+    "FirmwareVersion": "22.5.7",
+    "Id": "59-0",
+    "Manufacturer": "Intel Corporation",
+    "Name": "Intel(R) Ethernet 25G 4P E810-XXV Adapter",
+    "PCIeFunctions": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions"
+    },
+    "PCIeInterface": {
+      "LanesInUse": 16,
+      "PCIeType": "Gen4"
+    },
+    "Slot": {
+      "Location": {
+        "PartLocation": {
+          "LocationOrdinalValue": 3,
+          "LocationType": "Slot",
+          "ServiceLabel": "Slot 3"
+        }
+      }
+    },
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions/59-0-0"
+      }
+    ],
+    "Members@odata.count": 1
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions/59-0-0": {
+    "DeviceClass": "NetworkController",
+    "FunctionType": "Physical",
+    "Id": "59-0-0"
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/PCIeSlots": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeSlots",
+    "Slots": [
+      {
+        "Lanes": 8,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 1,
+            "LocationType": "Slot",
+            "ServiceLabel": "Slot 1"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "Lanes": 8,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 2,
+            "LocationType": "Slot",
+            "ServiceLabel": "Slot 2"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "Lanes": 16,
+        "Links": {
+          "PCIeDevice": [
+            {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0"
+            }
+          ]
+        },
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 3,
+            "LocationType": "Slot",
+            "ServiceLabel": "Slot 3"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "LowProfile",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "Lanes": 8,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 4,
+            "LocationType": "Slot",
+            "ServiceLabel": "Slot 4"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "LowProfile",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "Lanes": 8,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 5,
+            "LocationType": "Slot",
+            "ServiceLabel": "Slot 5"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "LowProfile",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "Lanes": 16,
+        "Links": {
+          "PCIeDevice": [
+            {
+              "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/152-0"
+            }
+          ]
+        },
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 6,
+            "LocationType": "Slot",
+            "ServiceLabel": "Slot 6"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "LowProfile",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "Lanes": 8,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 7,
+            "LocationType": "Slot",
+            "ServiceLabel": "Slot 7"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "Lanes": 8,
+        "Location": {
+          "PartLocation": {
+            "LocationOrdinalValue": 8,
+            "LocationType": "Slot",
+            "ServiceLabel": "Slot 8"
+          }
+        },
+        "PCIeType": "Gen4",
+        "SlotType": "FullLength",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    ]
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/Power": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Power",
+    "PowerSupplies": [
+      {
+        "FirmwareVersion": "00.1B.53",
+        "LineInputVoltage": 230,
+        "Manufacturer": "DELL",
+        "MemberId": "PSU.Slot.1",
+        "Model": "PWR SPLY,1400W,RDNT,LTON",
+        "Name": "PS1 Status",
+        "PartNumber": "01CW9GA08",
+        "PowerCapacityWatts": 1400,
+        "PowerInputWatts": 312,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "FirmwareVersion": "00.1B.53",
+        "LineInputVoltage": 0,
+        "Manufacturer": "DELL",
+        "MemberId": "PSU.Slot.2",
+        "Model": "PWR SPLY,1400W,RDNT,LTON",
+        "Name": "PS2 Status",
+        "PartNumber": "01CW9GA08",
+        "PowerCapacityWatts": 1400,
+        "PowerInputWatts": 0,
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "Warning",
+          "State": "Enabled"
+        }
+      }
+    ]
+  },
+  "/redfish/v1/Chassis/System.Embedded.1/Thermal": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Thermal",
+    "Fans": [
+      {
+        "MemberId": "0x17||Fan.Embedded.1A",
+        "Name": "System Board Fan1A",
+        "Reading": 6240,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.1B",
+        "Name": "System Board Fan1B",
+        "Reading": 6240,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.2A",
+        "Name": "System Board Fan2A",
+        "Reading": 6360,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.2B",
+        "Name": "System Board Fan2B",
+        "Reading": 6360,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.3A",
+        "Name": "System Board Fan3A",
+        "Reading": 6480,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.3B",
+        "Name": "System Board Fan3B",
+        "Reading": 6480,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.4A",
+        "Name": "System Board Fan4A",
+        "Reading": 6600,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.4B",
+        "Name": "System Board Fan4B",
+        "Reading": 6600,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.5A",
+        "Name": "System Board Fan5A",
+        "Reading": 6720,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.5B",
+        "Name": "System Board Fan5B",
+        "Reading": 6720,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.6A",
+        "Name": "System Board Fan6A",
+        "Reading": 6840,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "0x17||Fan.Embedded.6B",
+        "Name": "System Board Fan6B",
+        "Reading": 6840,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    ]
+  },
+  "/redfish/v1/Managers/iDRAC.Embedded.1": {
+    "FirmwareVersion": "7.10.70.00",
+    "Id": "iDRAC.Embedded.1"
+  },
+  "/redfish/v1/Systems/System.Embedded.1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1",
+    "BiosVersion": "1.14.1",
+    "Id": "System.Embedded.1",
+    "Links": {
+      "Chassis": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+        }
+      ]
+    },
+    "Manufacturer": "Dell Inc.",
+    "Model": "PowerEdge R750",
+    "PowerState": "On",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A4"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A5"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A7"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B4"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B5"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B8"
+      }
+    ],
+    "Members@odata.count": 16
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM A1",
+    "Id": "DIMM.Socket.A1",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 1,
+      "Socket": 1
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A2": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A2",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM A2",
+    "Id": "DIMM.Socket.A2",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 2,
+      "Socket": 1
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A3": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A3",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM A3",
+    "Id": "DIMM.Socket.A3",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 3,
+      "Socket": 1
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A4": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A4",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM A4",
+    "Id": "DIMM.Socket.A4",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 4,
+      "Socket": 1
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A5": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A5",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM A5",
+    "Id": "DIMM.Socket.A5",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 5,
+      "Socket": 1
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A6": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A6",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM A6",
+    "Id": "DIMM.Socket.A6",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 6,
+      "Socket": 1
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A7": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A7",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM A7",
+    "Id": "DIMM.Socket.A7",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 7,
+      "Socket": 1
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM A8",
+    "Id": "DIMM.Socket.A8",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 8,
+      "Socket": 1
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B1",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM B1",
+    "Id": "DIMM.Socket.B1",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 1,
+      "Socket": 2
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM B2",
+    "Id": "DIMM.Socket.B2",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 2,
+      "Socket": 2
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B3": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B3",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM B3",
+    "Id": "DIMM.Socket.B3",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 3,
+      "Socket": 2
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B4": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B4",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM B4",
+    "Id": "DIMM.Socket.B4",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 4,
+      "Socket": 2
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "Critical",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B5": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B5",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM B5",
+    "Id": "DIMM.Socket.B5",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 5,
+      "Socket": 2
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B6": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B6",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM B6",
+    "Id": "DIMM.Socket.B6",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 6,
+      "Socket": 2
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM B7",
+    "Id": "DIMM.Socket.B7",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 7,
+      "Socket": 2
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B8": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B8",
+    "CapacityMiB": 32768,
+    "DeviceLocator": "DIMM B8",
+    "Id": "DIMM.Socket.B8",
+    "Manufacturer": "Micron Technology",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+      "Slot": 8,
+      "Socket": 2
+    },
+    "Name": "DIMM Slot",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "36ASF4G72PZ-3G2R1",
+    "RankCount": 2,
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Processors": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2"
+      }
+    ],
+    "Members@odata.count": 2
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1",
+    "Id": "CPU.Socket.1",
+    "InstructionSet": "x86-64",
+    "Manufacturer": "Intel",
+    "MaxSpeedMHz": 4000,
+    "Model": "Intel(R) Xeon(R) Gold 6330N CPU @ 2.20GHz",
+    "ProcessorType": "CPU",
+    "Socket": "CPU.Socket.1",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    },
+    "TotalCores": 28,
+    "TotalThreads": 56
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2",
+    "Id": "CPU.Socket.2",
+    "InstructionSet": "x86-64",
+    "Manufacturer": "Intel",
+    "MaxSpeedMHz": 4000,
+    "Model": "Intel(R) Xeon(R) Gold 6330N CPU @ 2.20GHz",
+    "ProcessorType": "CPU",
+    "Socket": "CPU.Socket.2",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    },
+    "TotalCores": 28,
+    "TotalThreads": 56
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1"
+      }
+    ],
+    "Members@odata.count": 1
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1",
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.2:Enclosure.Internal.0-1:RAID.SL.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.3:Enclosure.Internal.0-1:RAID.SL.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.4:Enclosure.Internal.0-1:RAID.SL.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.5:Enclosure.Internal.0-1:RAID.SL.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.6:Enclosure.Internal.0-1:RAID.SL.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.7:Enclosure.Internal.0-1:RAID.SL.3-1"
+      }
+    ],
+    "Id": "RAID.SL.3-1",
+    "Name": "PERC H755 Front",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    },
+    "StorageControllers": [
+      {
+        "FirmwareVersion": "52.21.0-4606",
+        "Model": "PERC H755 Front"
+      }
+    ]
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "CapacityBytes": 960197124096,
+    "Id": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Manufacturer": "SAMSUNG",
+    "MediaType": "SSD",
+    "Model": "MZ7L3960HCJRAD9",
+    "PhysicalLocation": {
+      "PartLocation": {
+        "LocationOrdinalValue": 0,
+        "LocationType": "Slot"
+      }
+    },
+    "Protocol": "SATA",
+    "Revision": "DG58",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "CapacityBytes": 960197124096,
+    "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Manufacturer": "SAMSUNG",
+    "MediaType": "SSD",
+    "Model": "MZ7L3960HCJRAD9",
+    "PhysicalLocation": {
+      "PartLocation": {
+        "LocationOrdinalValue": 1,
+        "LocationType": "Slot"
+      }
+    },
+    "Protocol": "SATA",
+    "Revision": "DG58",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.2:Enclosure.Internal.0-1:RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.2:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "CapacityBytes": 960197124096,
+    "Id": "Disk.Bay.2:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Manufacturer": "SAMSUNG",
+    "MediaType": "SSD",
+    "Model": "MZ7L3960HCJRAD9",
+    "PhysicalLocation": {
+      "PartLocation": {
+        "LocationOrdinalValue": 2,
+        "LocationType": "Slot"
+      }
+    },
+    "Protocol": "SATA",
+    "Revision": "DG58",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.3:Enclosure.Internal.0-1:RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.3:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "CapacityBytes": 960197124096,
+    "Id": "Disk.Bay.3:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Manufacturer": "SAMSUNG",
+    "MediaType": "SSD",
+    "Model": "MZ7L3960HCJRAD9",
+    "PhysicalLocation": {
+      "PartLocation": {
+        "LocationOrdinalValue": 3,
+        "LocationType": "Slot"
+      }
+    },
+    "Protocol": "SATA",
+    "Revision": "DG58",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.4:Enclosure.Internal.0-1:RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.4:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "CapacityBytes": 960197124096,
+    "Id": "Disk.Bay.4:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Manufacturer": "SAMSUNG",
+    "MediaType": "SSD",
+    "Model": "MZ7L3960HCJRAD9",
+    "PhysicalLocation": {
+      "PartLocation": {
+        "LocationOrdinalValue": 4,
+        "LocationType": "Slot"
+      }
+    },
+    "Protocol": "SATA",
+    "Revision": "DG58",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.5:Enclosure.Internal.0-1:RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.5:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "CapacityBytes": 960197124096,
+    "Id": "Disk.Bay.5:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Manufacturer": "SAMSUNG",
+    "MediaType": "SSD",
+    "Model": "MZ7L3960HCJRAD9",
+    "PhysicalLocation": {
+      "PartLocation": {
+        "LocationOrdinalValue": 5,
+        "LocationType": "Slot"
+      }
+    },
+    "Protocol": "SATA",
+    "Revision": "DG58",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.6:Enclosure.Internal.0-1:RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.6:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "CapacityBytes": 960197124096,
+    "Id": "Disk.Bay.6:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Manufacturer": "SAMSUNG",
+    "MediaType": "SSD",
+    "Model": "MZ7L3960HCJRAD9",
+    "PhysicalLocation": {
+      "PartLocation": {
+        "LocationOrdinalValue": 6,
+        "LocationType": "Slot"
+      }
+    },
+    "Protocol": "SATA",
+    "Revision": "DG58",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.7:Enclosure.Internal.0-1:RAID.SL.3-1": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.7:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "CapacityBytes": 960197124096,
+    "Id": "Disk.Bay.7:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Manufacturer": "SAMSUNG",
+    "MediaType": "SSD",
+    "Model": "MZ7L3960HCJRAD9",
+    "PhysicalLocation": {
+      "PartLocation": {
+        "LocationOrdinalValue": 7,
+        "LocationType": "Slot"
+      }
+    },
+    "Protocol": "SATA",
+    "Revision": "DG58",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "_note": "SYNTHETIC fixture modeled on Dell PowerEdge R750 / iDRAC9 7.x. Replace with a real capture: python scripts/capture_redfish.py <server_id> -o tests/fixtures/dell_r750.json"
+}

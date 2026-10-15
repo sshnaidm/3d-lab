@@ -1,0 +1,38 @@
+# 3D Lab settings. Every key can also be set as an env var VIEWER_<KEY> (e.g. VIEWER_DATA_DIR),
+# which wins over this file. The write API token is env-only: VIEWER_API_TOKEN.
+# Relative paths are relative to this file.
+
+servers_file: redfish_servers.yaml   # same format as baremetal-mcp
+secrets_file: redfish_secrets.yaml   # mode 0600, never commit it
+data_dir: ../data                    # topology store (index.json, hosts/, history/, adhoc/)
+
+bind: 127.0.0.1
+port: 8080
+
+# BMC requests (GET only)
+bmc_timeout: 60s
+bmc_retries: 3
+verify_tls: false                    # BMCs almost always have self-signed certificates
+
+# Collection limits
+max_concurrent_bmcs: 8               # hosts collected at once
+max_requests_per_bmc: 4              # in-flight Redfish requests per BMC
+host_timeout: 5m
+
+# Freshness: collection only happens on request (UI, API, CLI); older data is shown as "stale".
+max_age: 7d
+retry_failed_after: 1h
+refresh_min_interval: 60             # seconds between manual refreshes of one host
+
+# Security
+open_reads: true                     # false: reads need the token too
+allowed_bmc_cidrs: []                # "Add server by IP" is disabled while empty, e.g. [10.20.0.0/16]
+allowed_hosts: []                    # extra Host names accepted from loopback (local reverse proxy)
+
+# Fleet grouping: a server's `lab:` / `rack:` keys win; otherwise tags are matched.
+lab_tags: [lab1, lab2]               # tags that name a lab
+lab_tag_pattern: null                # or a regex, e.g. "^lab-(.+)$"
+rack_tag_pattern: "^rack[-_]?(.+)$"
+
+# Optional switch wiring (CSV/YAML, globs allowed): labels NIC ports with the switch port they go to.
+wiring_files: []                     # e.g. [wiring/*.csv]

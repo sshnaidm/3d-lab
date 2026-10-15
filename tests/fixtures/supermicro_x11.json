@@ -1,0 +1,444 @@
+{
+  "/redfish/v1": {
+    "@odata.id": "/redfish/v1",
+    "Oem": {
+      "Supermicro": {}
+    },
+    "RedfishVersion": "1.8.0"
+  },
+  "/redfish/v1/Chassis/1": {
+    "@odata.id": "/redfish/v1/Chassis/1",
+    "ChassisType": "RackMount",
+    "Id": "1",
+    "Model": "CSE-515-R407",
+    "NetworkAdapters": {
+      "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+    },
+    "PCIeDevices": {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+    },
+    "Power": {
+      "@odata.id": "/redfish/v1/Chassis/1/Power"
+    },
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    },
+    "Thermal": {
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+    }
+  },
+  "/redfish/v1/Chassis/1/NetworkAdapters": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2"
+      }
+    ],
+    "Members@odata.count": 2
+  },
+  "/redfish/v1/Chassis/1/NetworkAdapters/1": {
+    "Controllers": [
+      {
+        "ControllerCapabilities": {
+          "NetworkPortCount": 2
+        },
+        "Location": {
+          "PartLocation": {
+            "LocationType": "Embedded",
+            "ServiceLabel": "Onboard LAN"
+          }
+        }
+      }
+    ],
+    "Id": "1",
+    "Manufacturer": "Intel",
+    "Model": "Intel I350 (onboard)",
+    "NetworkPorts": {
+      "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1/NetworkPorts"
+    },
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/1/NetworkAdapters/1/NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1/NetworkPorts",
+    "Members": [],
+    "Members@odata.count": 0
+  },
+  "/redfish/v1/Chassis/1/NetworkAdapters/2": {
+    "Controllers": [
+      {
+        "ControllerCapabilities": {
+          "NetworkPortCount": 2
+        },
+        "Location": {
+          "PartLocation": {
+            "LocationType": "Slot",
+            "ServiceLabel": "CPU1 SLOT1 PCI-E 3.0 X16"
+          }
+        },
+        "PCIeInterface": {
+          "LanesInUse": 8,
+          "PCIeType": "Gen3"
+        }
+      }
+    ],
+    "Id": "2",
+    "Manufacturer": "Supermicro",
+    "Model": "AOC-S25G-i2S",
+    "NetworkPorts": {
+      "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts"
+    },
+    "PartNumber": "AOC-S25G-i2S",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts/1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts/2"
+      }
+    ],
+    "Members@odata.count": 2
+  },
+  "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts/1": {
+    "ActiveLinkTechnology": "Ethernet",
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "Id": "1",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts/2": {
+    "ActiveLinkTechnology": "Ethernet",
+    "AssociatedNetworkAddresses": [
+      "00:00:00:00:00:00"
+    ],
+    "Id": "2",
+    "LinkStatus": "Up"
+  },
+  "/redfish/v1/Chassis/1/PCIeDevices": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/NIC1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/NIC2"
+      }
+    ],
+    "Members@odata.count": 2
+  },
+  "/redfish/v1/Chassis/1/PCIeDevices/NIC1": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/NIC1",
+    "Description": "Riser: RSC-RR1U-E16",
+    "Id": "NIC1",
+    "Manufacturer": "Intel",
+    "Name": "NIC1",
+    "PCIeInterface": {
+      "LanesInUse": 8,
+      "PCIeType": "Gen3"
+    },
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/1/PCIeDevices/NIC2": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/NIC2",
+    "Description": "Riser: RSC-RR1U-E16",
+    "Id": "NIC2",
+    "Manufacturer": "Intel",
+    "Name": "NIC2",
+    "PCIeInterface": {
+      "LanesInUse": 8,
+      "PCIeType": "Gen3"
+    },
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Chassis/1/Power": {
+    "PowerSupplies": [
+      {
+        "LastPowerOutputWatts": 96,
+        "Manufacturer": "SUPERMICRO",
+        "MemberId": "0",
+        "Model": "PWS-407P-1R",
+        "Name": "Power Supply 1",
+        "PowerCapacityWatts": 400,
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "LastPowerOutputWatts": 96,
+        "Manufacturer": "SUPERMICRO",
+        "MemberId": "1",
+        "Model": "PWS-407P-1R",
+        "Name": "Power Supply 2",
+        "PowerCapacityWatts": 400,
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    ]
+  },
+  "/redfish/v1/Chassis/1/Thermal": {
+    "Fans": [
+      {
+        "MemberId": "1",
+        "Name": "FAN1",
+        "Reading": 8400,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "2",
+        "Name": "FAN2",
+        "Reading": 8400,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "3",
+        "Name": "FAN3",
+        "Reading": 8400,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "4",
+        "Name": "FAN4",
+        "Reading": 8400,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      },
+      {
+        "MemberId": "5",
+        "Name": "FAN5",
+        "Reading": null,
+        "ReadingUnits": "RPM",
+        "Status": {
+          "State": "Absent"
+        }
+      }
+    ]
+  },
+  "/redfish/v1/Managers/1": {
+    "FirmwareVersion": "01.73.06",
+    "Id": "1"
+  },
+  "/redfish/v1/Systems/1": {
+    "@odata.id": "/redfish/v1/Systems/1",
+    "BiosVersion": "3.5",
+    "Id": "1",
+    "Links": {
+      "Chassis": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ]
+    },
+    "Manufacturer": "Supermicro",
+    "Model": "Super Server",
+    "PowerState": "On",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/1/Memory": {
+    "@odata.id": "/redfish/v1/Systems/1/Memory",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/4"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/5"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/7"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/8"
+      }
+    ],
+    "Members@odata.count": 8
+  },
+  "/redfish/v1/Systems/1/Memory/1": {
+    "CapacityMiB": 16384,
+    "DeviceLocator": "P1-DIMMA1",
+    "Id": "1",
+    "Manufacturer": "Micron",
+    "MemoryDeviceType": "DDR4",
+    "Name": "Memory 1",
+    "OperatingSpeedMhz": 2933,
+    "PartNumber": "18ASF2G72PDZ-2G9E1",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/1/Memory/2": {
+    "CapacityMiB": 16384,
+    "DeviceLocator": "P1-DIMMB1",
+    "Id": "2",
+    "Manufacturer": "Micron",
+    "MemoryDeviceType": "DDR4",
+    "Name": "Memory 2",
+    "OperatingSpeedMhz": 2933,
+    "PartNumber": "18ASF2G72PDZ-2G9E1",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/1/Memory/3": {
+    "CapacityMiB": 16384,
+    "DeviceLocator": "P1-DIMMC1",
+    "Id": "3",
+    "Manufacturer": "Micron",
+    "MemoryDeviceType": "DDR4",
+    "Name": "Memory 3",
+    "OperatingSpeedMhz": 2933,
+    "PartNumber": "18ASF2G72PDZ-2G9E1",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/1/Memory/4": {
+    "CapacityMiB": 16384,
+    "DeviceLocator": "P1-DIMMD1",
+    "Id": "4",
+    "Manufacturer": "Micron",
+    "MemoryDeviceType": "DDR4",
+    "Name": "Memory 4",
+    "OperatingSpeedMhz": 2933,
+    "PartNumber": "18ASF2G72PDZ-2G9E1",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/1/Memory/5": {
+    "CapacityMiB": 16384,
+    "DeviceLocator": "P1-DIMME1",
+    "Id": "5",
+    "Manufacturer": "Micron",
+    "MemoryDeviceType": "DDR4",
+    "Name": "Memory 5",
+    "OperatingSpeedMhz": 2933,
+    "PartNumber": "18ASF2G72PDZ-2G9E1",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/1/Memory/6": {
+    "CapacityMiB": 16384,
+    "DeviceLocator": "P1-DIMMF1",
+    "Id": "6",
+    "Manufacturer": "Micron",
+    "MemoryDeviceType": "DDR4",
+    "Name": "Memory 6",
+    "OperatingSpeedMhz": 2933,
+    "PartNumber": "18ASF2G72PDZ-2G9E1",
+    "SerialNumber": "REDACTED",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    }
+  },
+  "/redfish/v1/Systems/1/Memory/7": {
+    "DeviceLocator": "P1-DIMMA2",
+    "Id": "7",
+    "Name": "Memory 7",
+    "Status": {
+      "State": "Absent"
+    }
+  },
+  "/redfish/v1/Systems/1/Memory/8": {
+    "DeviceLocator": "P1-DIMMD2",
+    "Id": "8",
+    "Name": "Memory 8",
+    "Status": {
+      "State": "Absent"
+    }
+  },
+  "/redfish/v1/Systems/1/Processors": {
+    "@odata.id": "/redfish/v1/Systems/1/Processors",
+    "Members": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+      }
+    ],
+    "Members@odata.count": 1
+  },
+  "/redfish/v1/Systems/1/Processors/1": {
+    "Id": "1",
+    "Manufacturer": "Intel(R) Corporation",
+    "MaxSpeedMHz": 3900,
+    "Model": "Intel(R) Xeon(R) Gold 6212U CPU @ 2.40GHz",
+    "ProcessorType": "CPU",
+    "Socket": "CPU1",
+    "Status": {
+      "Health": "OK",
+      "State": "Enabled"
+    },
+    "TotalCores": 24,
+    "TotalThreads": 48
+  },
+  "/redfish/v1/Systems/1/Storage": {
+    "@odata.id": "/redfish/v1/Systems/1/Storage",
+    "Members": [],
+    "Members@odata.count": 0
+  },
+  "_note": "SYNTHETIC fixture modeled on Supermicro X11 / CSE-515-R407. Replace with a real capture: python scripts/capture_redfish.py <server_id> -o tests/fixtures/supermicro_x11.json"
+}

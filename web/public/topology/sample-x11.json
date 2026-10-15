@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "server_id": "sample-x11",
+  "captured_at": "2026-09-30T15:37:18+00:00",
+  "system": {
+    "vendor": "supermicro",
+    "model": "Super Server",
+    "serial": "REDACTED",
+    "health": "OK",
+    "power_state": "On",
+    "bios": "3.5",
+    "bmc": "01.73.06"
+  },
+  "chassis": {
+    "model": "CSE-515-R407",
+    "u_height": 1
+  },
+  "components": [
+    {
+      "id": "cpu:1",
+      "kind": "cpu",
+      "slot_key": "cpu:1",
+      "slot_label": "CPU1",
+      "present": true,
+      "health": "OK",
+      "name": "Intel(R) Xeon(R) Gold 6212U CPU @ 2.40GHz",
+      "summary": {
+        "model": "Intel(R) Xeon(R) Gold 6212U CPU @ 2.40GHz",
+        "manufacturer": "Intel(R) Corporation",
+        "cores": 24,
+        "threads": 48,
+        "max_speed_mhz": 3900
+      },
+      "raw": {
+        "Id": "1",
+        "Manufacturer": "Intel(R) Corporation",
+        "MaxSpeedMHz": 3900,
+        "Model": "Intel(R) Xeon(R) Gold 6212U CPU @ 2.40GHz",
+        "ProcessorType": "CPU",
+        "Socket": "CPU1",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        },
+        "TotalCores": 24,
+        "TotalThreads": 48
+      }
+    },
+    {
+      "id": "dimm:P1-A1",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-A1",
+      "slot_label": "P1-DIMMA1",
+      "present": true,
+      "health": "OK",
+      "name": "Micron 16GB DDR4-2933",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2933,
+        "type": "DDR4",
+        "manufacturer": "Micron",
+        "part_number": "18ASF2G72PDZ-2G9E1"
+      },
+      "raw": {
+        "CapacityMiB": 16384,
+        "DeviceLocator": "P1-DIMMA1",
+        "Id": "1",
+        "Manufacturer": "Micron",
+        "MemoryDeviceType": "DDR4",
+        "Name": "Memory 1",
+        "OperatingSpeedMhz": 2933,
+        "PartNumber": "18ASF2G72PDZ-2G9E1",
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-B1",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-B1",
+      "slot_label": "P1-DIMMB1",
+      "present": true,
+      "health": "OK",
+      "name": "Micron 16GB DDR4-2933",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2933,
+        "type": "DDR4",
+        "manufacturer": "Micron",
+        "part_number": "18ASF2G72PDZ-2G9E1"
+      },
+      "raw": {
+        "CapacityMiB": 16384,
+        "DeviceLocator": "P1-DIMMB1",
+        "Id": "2",
+        "Manufacturer": "Micron",
+        "MemoryDeviceType": "DDR4",
+        "Name": "Memory 2",
+        "OperatingSpeedMhz": 2933,
+        "PartNumber": "18ASF2G72PDZ-2G9E1",
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-C1",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-C1",
+      "slot_label": "P1-DIMMC1",
+      "present": true,
+      "health": "OK",
+      "name": "Micron 16GB DDR4-2933",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2933,
+        "type": "DDR4",
+        "manufacturer": "Micron",
+        "part_number": "18ASF2G72PDZ-2G9E1"
+      },
+      "raw": {
+        "CapacityMiB": 16384,
+        "DeviceLocator": "P1-DIMMC1",
+        "Id": "3",
+        "Manufacturer": "Micron",
+        "MemoryDeviceType": "DDR4",
+        "Name": "Memory 3",
+        "OperatingSpeedMhz": 2933,
+        "PartNumber": "18ASF2G72PDZ-2G9E1",
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-D1",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-D1",
+      "slot_label": "P1-DIMMD1",
+      "present": true,
+      "health": "OK",
+      "name": "Micron 16GB DDR4-2933",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2933,
+        "type": "DDR4",
+        "manufacturer": "Micron",
+        "part_number": "18ASF2G72PDZ-2G9E1"
+      },
+      "raw": {
+        "CapacityMiB": 16384,
+        "DeviceLocator": "P1-DIMMD1",
+        "Id": "4",
+        "Manufacturer": "Micron",
+        "MemoryDeviceType": "DDR4",
+        "Name": "Memory 4",
+        "OperatingSpeedMhz": 2933,
+        "PartNumber": "18ASF2G72PDZ-2G9E1",
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-E1",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-E1",
+      "slot_label": "P1-DIMME1",
+      "present": true,
+      "health": "OK",
+      "name": "Micron 16GB DDR4-2933",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2933,
+        "type": "DDR4",
+        "manufacturer": "Micron",
+        "part_number": "18ASF2G72PDZ-2G9E1"
+      },
+      "raw": {
+        "CapacityMiB": 16384,
+        "DeviceLocator": "P1-DIMME1",
+        "Id": "5",
+        "Manufacturer": "Micron",
+        "MemoryDeviceType": "DDR4",
+        "Name": "Memory 5",
+        "OperatingSpeedMhz": 2933,
+        "PartNumber": "18ASF2G72PDZ-2G9E1",
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-F1",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-F1",
+      "slot_label": "P1-DIMMF1",
+      "present": true,
+      "health": "OK",
+      "name": "Micron 16GB DDR4-2933",
+      "summary": {
+        "capacity_gib": 16,
+        "speed_mts": 2933,
+        "type": "DDR4",
+        "manufacturer": "Micron",
+        "part_number": "18ASF2G72PDZ-2G9E1"
+      },
+      "raw": {
+        "CapacityMiB": 16384,
+        "DeviceLocator": "P1-DIMMF1",
+        "Id": "6",
+        "Manufacturer": "Micron",
+        "MemoryDeviceType": "DDR4",
+        "Name": "Memory 6",
+        "OperatingSpeedMhz": 2933,
+        "PartNumber": "18ASF2G72PDZ-2G9E1",
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-A2",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-A2",
+      "slot_label": "P1-DIMMA2",
+      "present": false,
+      "health": null,
+      "name": "Empty P1-DIMMA2",
+      "summary": {},
+      "raw": {
+        "DeviceLocator": "P1-DIMMA2",
+        "Id": "7",
+        "Name": "Memory 7",
+        "Status": {
+          "State": "Absent"
+        }
+      }
+    },
+    {
+      "id": "dimm:P1-D2",
+      "kind": "dimm",
+      "slot_key": "dimm:P1-D2",
+      "slot_label": "P1-DIMMD2",
+      "present": false,
+      "health": null,
+      "name": "Empty P1-DIMMD2",
+      "summary": {},
+      "raw": {
+        "DeviceLocator": "P1-DIMMD2",
+        "Id": "8",
+        "Name": "Memory 8",
+        "Status": {
+          "State": "Absent"
+        }
+      }
+    },
+    {
+      "id": "lom:1",
+      "kind": "lom",
+      "slot_key": "lom:1",
+      "slot_label": "LOM 1",
+      "present": true,
+      "health": "OK",
+      "name": "Intel I350 (onboard)",
+      "summary": {
+        "category": "network",
+        "manufacturer": "Intel",
+        "model": "Intel I350 (onboard)",
+        "port_count": 2
+      },
+      "raw": {
+        "Controllers": [
+          {
+            "ControllerCapabilities": {
+              "NetworkPortCount": 2
+            },
+            "Location": {
+              "PartLocation": {
+                "LocationType": "Embedded",
+                "ServiceLabel": "Onboard LAN"
+              }
+            }
+          }
+        ],
+        "Id": "1",
+        "Manufacturer": "Intel",
+        "Model": "Intel I350 (onboard)",
+        "NetworkPorts": {
+          "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1/NetworkPorts"
+        },
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "pcie:1",
+      "kind": "pcie",
+      "slot_key": "pcie:1",
+      "slot_label": "PCIE 1",
+      "present": true,
+      "health": "OK",
+      "name": "AOC-S25G-i2S",
+      "summary": {
+        "category": "network",
+        "manufacturer": "Supermicro",
+        "model": "AOC-S25G-i2S",
+        "part_number": "AOC-S25G-i2S",
+        "port_count": 2,
+        "ports": [
+          {
+            "id": "1",
+            "link_status": "Up",
+            "speed_mbps": null,
+            "mac": "00:00:00:00:00:00"
+          },
+          {
+            "id": "2",
+            "link_status": "Up",
+            "speed_mbps": null,
+            "mac": "00:00:00:00:00:00"
+          }
+        ]
+      },
+      "raw": {
+        "Controllers": [
+          {
+            "ControllerCapabilities": {
+              "NetworkPortCount": 2
+            },
+            "Location": {
+              "PartLocation": {
+                "LocationType": "Slot",
+                "ServiceLabel": "CPU1 SLOT1 PCI-E 3.0 X16"
+              }
+            },
+            "PCIeInterface": {
+              "LanesInUse": 8,
+              "PCIeType": "Gen3"
+            }
+          }
+        ],
+        "Id": "2",
+        "Manufacturer": "Supermicro",
+        "Model": "AOC-S25G-i2S",
+        "NetworkPorts": {
+          "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/2/NetworkPorts"
+        },
+        "PartNumber": "AOC-S25G-i2S",
+        "SerialNumber": "REDACTED",
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "psu:1",
+      "kind": "psu",
+      "slot_key": "psu:1",
+      "slot_label": "PSU1",
+      "present": true,
+      "health": "OK",
+      "name": "SUPERMICRO 400W PSU",
+      "summary": {
+        "capacity_w": 400,
+        "model": "PWS-407P-1R",
+        "manufacturer": "SUPERMICRO",
+        "output_watts": 96
+      },
+      "raw": {
+        "LastPowerOutputWatts": 96,
+        "Manufacturer": "SUPERMICRO",
+        "MemberId": "0",
+        "Model": "PWS-407P-1R",
+        "Name": "Power Supply 1",
+        "PowerCapacityWatts": 400,
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "psu:2",
+      "kind": "psu",
+      "slot_key": "psu:2",
+      "slot_label": "PSU2",
+      "present": true,
+      "health": "OK",
+      "name": "SUPERMICRO 400W PSU",
+      "summary": {
+        "capacity_w": 400,
+        "model": "PWS-407P-1R",
+        "manufacturer": "SUPERMICRO",
+        "output_watts": 96
+      },
+      "raw": {
+        "LastPowerOutputWatts": 96,
+        "Manufacturer": "SUPERMICRO",
+        "MemberId": "1",
+        "Model": "PWS-407P-1R",
+        "Name": "Power Supply 2",
+        "PowerCapacityWatts": 400,
+        "Status": {
+          "Health": "OK",
+          "State": "Enabled"
+        }
+      }
+    },
+    {
+      "id": "fan:1",
+      "kind": "fan",
+      "slot_key": "fan:1",
+      "slot_label": "Fan 1",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 1",
+      "summary": {
+        "rpm": [
+          8400
+        ],
+        "rotor_names": [
+          "FAN1"
+        ]
+      },
+      "raw": {
+        "Id": "Fan1",
+        "Rotors": [
+          {
+            "MemberId": "1",
+            "Name": "FAN1",
+            "Reading": 8400,
+            "ReadingUnits": "RPM",
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:2",
+      "kind": "fan",
+      "slot_key": "fan:2",
+      "slot_label": "Fan 2",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 2",
+      "summary": {
+        "rpm": [
+          8400
+        ],
+        "rotor_names": [
+          "FAN2"
+        ]
+      },
+      "raw": {
+        "Id": "Fan2",
+        "Rotors": [
+          {
+            "MemberId": "2",
+            "Name": "FAN2",
+            "Reading": 8400,
+            "ReadingUnits": "RPM",
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:3",
+      "kind": "fan",
+      "slot_key": "fan:3",
+      "slot_label": "Fan 3",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 3",
+      "summary": {
+        "rpm": [
+          8400
+        ],
+        "rotor_names": [
+          "FAN3"
+        ]
+      },
+      "raw": {
+        "Id": "Fan3",
+        "Rotors": [
+          {
+            "MemberId": "3",
+            "Name": "FAN3",
+            "Reading": 8400,
+            "ReadingUnits": "RPM",
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:4",
+      "kind": "fan",
+      "slot_key": "fan:4",
+      "slot_label": "Fan 4",
+      "present": true,
+      "health": "OK",
+      "name": "Fan 4",
+      "summary": {
+        "rpm": [
+          8400
+        ],
+        "rotor_names": [
+          "FAN4"
+        ]
+      },
+      "raw": {
+        "Id": "Fan4",
+        "Rotors": [
+          {
+            "MemberId": "4",
+            "Name": "FAN4",
+            "Reading": 8400,
+            "ReadingUnits": "RPM",
+            "Status": {
+              "Health": "OK",
+              "State": "Enabled"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan:5",
+      "kind": "fan",
+      "slot_key": "fan:5",
+      "slot_label": "Fan 5",
+      "present": false,
+      "health": null,
+      "name": "Fan 5",
+      "summary": {
+        "rpm": [],
+        "rotor_names": [
+          "FAN5"
+        ]
+      },
+      "raw": {
+        "Id": "Fan5",
+        "Rotors": [
+          {
+            "MemberId": "5",
+            "Name": "FAN5",
+            "Reading": null,
+            "ReadingUnits": "RPM",
+            "Status": {
+              "State": "Absent"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

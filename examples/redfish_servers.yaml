@@ -1,0 +1,15 @@
+# Servers, in the baremetal-mcp format. `vendor` is optional (detected from the BMC); tags drive the
+# fleet grouping (see lab_tags / lab_tag_pattern / rack_tag_pattern in config.yaml).
+servers:
+  db-01:
+    bmc_ip: 192.0.2.11
+    vendor: dell
+    tags: [lab1, rack-a12, r750]
+    description: "Database server"
+  web-01:
+    bmc_ip: 192.0.2.21
+    tags: [lab2, rack-b03]
+  gpu-01:
+    bmc_ip: 192.0.2.31
+    lab: lab1          # explicit lab/rack keys win over tags
+    rack: a14

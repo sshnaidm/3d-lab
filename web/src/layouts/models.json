@@ -1,0 +1,12 @@
+{
+  "_comment": "Chassis model -> layout id. Shared by the viewer (layouts/index.ts) and the fleet service (/api/coverage). Most specific pattern first.",
+  "layouts": [
+    {"id": "dell-r7625", "match": "\\bR7625\\b"},
+    {"id": "dell-r760", "match": "\\bR760\\b"},
+    {"id": "dell-r750", "match": "\\bR750\\b"},
+    {"id": "dell-r740", "match": "\\bR740\\b"},
+    {"id": "dell-r660", "match": "\\bR660\\b"},
+    {"id": "dell-r650", "match": "\\bR650\\b"},
+    {"id": "dell-r640", "match": "\\bR640\\b"}
+  ]
+}

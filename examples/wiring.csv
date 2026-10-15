@@ -1,0 +1,4 @@
+host,interface,mac,switch_id,switch_port,switch_link_state,vlan_id,observed_at,correlation_status,notes
+db-01,ens1f0np0,b8:3f:d2:00:00:01,leaf-1,ethernet1/1/1,up,306,2026-10-01T10:00:00Z,matched,
+db-01,ens1f1np1,b8:3f:d2:00:00:02,leaf-2,ethernet1/1/1,up,306,2026-10-01T10:00:00Z,matched,
+web-01,eno1,,leaf-1,ethernet1/1/9,down,,,planned,cable ordered

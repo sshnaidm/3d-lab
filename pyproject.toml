@@ -1,0 +1,42 @@
+[project]
+name = "3d-lab"
+version = "0.1.0"
+description = "Fleet 3D hardware viewer: collects Redfish hardware topology from BMCs and shows every server in 3D"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = [
+    "httpx>=0.27",
+    "PyYAML>=6.0",
+    "starlette>=0.37",
+    "uvicorn>=0.29",
+]
+
+[project.urls]
+Repository = "https://github.com/sshnaidm/3d-lab"
+
+[project.scripts]
+3d-lab = "lab3d.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-asyncio", "pytest-cov"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--cov=lab3d --cov-report=term-missing"
+
+[tool.coverage.report]
+show_missing = true
+skip_empty = true
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["lab3d"]
